@@ -12,6 +12,9 @@ CONSTRAINT [PK_idpersona] PRIMARY KEY CLUSTERED ([ID_Persona])
 CREATE TABLE Mascotas (
 [ID_Mascota] INT NOT NULL IDENTITY (1,1),
 [Cod_Mascota] NVARCHAR (12) NOT NULL UNIQUE,
+[Nombre] nvarchar (25) not null,
+[Genero] varchar(2) not null,
+[Edad] VARCHAR (4),
 [Dueño] INT NOT NULL,
 CONSTRAINT [PK_idmascota] PRIMARY KEY CLUSTERED ([ID_Mascota]),
 CONSTRAINT [FK_Macotas_Clientes] FOREIGN KEY ([Dueño]) REFERENCES Clientes ([ID_Persona])
@@ -20,9 +23,6 @@ CONSTRAINT [FK_Macotas_Clientes] FOREIGN KEY ([Dueño]) REFERENCES Clientes ([ID_
 CREATE TABLE Tipo_Mascotas (
 [ID_TipoMascota] INT NOT NULL IDENTITY (1,1),
 [TipoDeMascota] VARCHAR (120) NOT NULL,
-[Nombre] NVARCHAR (25),
-[Genero] VARCHAR (2),
-[Edad] VARCHAR (4),
 [Mascota] INT NOT NULL,
 CONSTRAINT [PK_idtipomascota] PRIMARY KEY CLUSTERED ([ID_TipoMascota]),
 CONSTRAINT [FK_TipoMas_Mascotas] FOREIGN KEY ([Mascota]) REFERENCES Mascotas ([ID_Mascota])
@@ -30,7 +30,6 @@ CONSTRAINT [FK_TipoMas_Mascotas] FOREIGN KEY ([Mascota]) REFERENCES Mascotas ([I
 
 CREATE TABLE Servicios (
 [ID_Servicio] INT NOT NULL IDENTITY (1,1),
-[Nombre_Servicio] VARCHAR (300),
 [Precio] MONEY,
 [Estado] BIT NOT NULL,
 [Mascota] INT  NOT NULL,
@@ -40,6 +39,7 @@ CONSTRAINT [FK_Servicio_Mascota] FOREIGN KEY ([Mascota]) REFERENCES Mascotas ([I
 
 CREATE TABLE Tipo_Servicios (
 [ID_TipoServicio] INT NOT NULL IDENTITY (1,1),
+[Tipo_Servicio] nvarchar (300),
 [Servicio] INT NOT NULL,
 CONSTRAINT [PK_idtiposervicio] PRIMARY KEY CLUSTERED ([ID_TipoServicio]),
 CONSTRAINT [FK_TipoServicio_Servicio] FOREIGN KEY ([Servicio]) REFERENCES Servicios ([ID_Servicio])
@@ -48,13 +48,14 @@ CONSTRAINT [FK_TipoServicio_Servicio] FOREIGN KEY ([Servicio]) REFERENCES Servic
 
 CREATE TABLE Metodo_Pago (
 [ID_Pago] INT NOT NULL IDENTITY (1,1),
-[Tipo_Pago] NVARCHAR (10),
+[Tipo_Pago] NVARCHAR (50),
 CONSTRAINT [PK_idtpago] PRIMARY KEY CLUSTERED ([ID_Pago])
 );
 
 CREATE TABLE Facturas (
 [ID_Factura] INT NOT NULL IDENTITY (1,1),
 [Codigo_Factura] VARCHAR (15) NOT NULL,
+[Fecha] smalldatetime,
 [IVA] MONEY,
 [TOTAL] MONEY,
 [Cliente] INT NOT NULL,

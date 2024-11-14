@@ -1,5 +1,7 @@
-﻿using lib_entidades.Modelos;
+﻿using lib_entidades;
+using lib_entidades.Modelos;
 using lib_repositorios.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
 {
@@ -12,9 +14,19 @@ namespace lib_repositorios.Implementaciones
             this.conexion = conexion;
         }
 
+        public void Configurar(string string_conexion)
+        {
+            this.conexion!.StringConnection = string_conexion;
+        }
+
         public List<Facturas> Listar()
         {
             return conexion!.Listar<Facturas>();
+        }
+
+        public List<Facturas> Buscar(Expression<Func<Facturas, bool>> condiciones)
+        {
+            return conexion!.Buscar(condiciones);
         }
 
         public Facturas Guardar(Facturas entidad)

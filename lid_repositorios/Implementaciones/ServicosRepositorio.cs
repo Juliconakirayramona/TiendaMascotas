@@ -1,5 +1,6 @@
 ﻿using lib_entidades.Modelos;
 using lib_repositorios.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
 {
@@ -12,10 +13,16 @@ namespace lib_repositorios.Implementaciones
             this.conexion = conexion;
         }
 
+        public void Configurar(string string_conexion)
+        {
+            this.conexion!.StringConnection = string_conexion;
+        }
+
         public List<Servicios> Listar()
         {
             return conexion!.Listar<Servicios>();
         }
+
 
         public Servicios Guardar(Servicios entidad)
         {

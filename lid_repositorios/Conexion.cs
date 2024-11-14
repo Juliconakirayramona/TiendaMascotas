@@ -1,4 +1,5 @@
-﻿using lib_entidades.Modelos;
+﻿using lib_entidades;
+using lib_entidades.Modelos;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq.Expressions;

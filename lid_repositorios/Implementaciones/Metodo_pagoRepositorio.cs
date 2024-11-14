@@ -1,5 +1,6 @@
 ﻿using lib_entidades.Modelos;
 using lib_repositorios.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
 {
@@ -12,10 +13,16 @@ namespace lib_repositorios.Implementaciones
             this.conexion = conexion;
         }
 
+        public void Configurar(string string_conexion)
+        {
+            this.conexion!.StringConnection = string_conexion;
+        }
+
         public List<Metodo_pago> Listar()
         {
             return conexion!.Listar<Metodo_pago>();
         }
+
 
         public Metodo_pago Guardar(Metodo_pago entidad)
         {

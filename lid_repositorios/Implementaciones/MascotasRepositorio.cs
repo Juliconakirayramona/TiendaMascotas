@@ -1,5 +1,7 @@
-﻿using lib_entidades.Modelos;
+﻿using lib_entidades;
+using lib_entidades.Modelos;
 using lib_repositorios.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
 {
@@ -10,6 +12,11 @@ namespace lib_repositorios.Implementaciones
         public MascotasRepositorio(Conexion conexion)
         {
             this.conexion = conexion;
+        }
+
+        public void Configurar(string string_conexion)
+        {
+            this.conexion!.StringConnection = string_conexion;
         }
 
         public List<Mascotas> Listar()

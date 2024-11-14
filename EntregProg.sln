@@ -19,15 +19,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Servicios", "2 Servicios"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp_servicios", "asp_servicios\asp_servicios.csproj", "{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_aplicaciones", "lib_aplicaciones\lib_aplicaciones.csproj", "{3FDF506A-BAF0-4198-A660-0D744BD67E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_aplicaciones", "lib_aplicaciones\lib_aplicaciones.csproj", "{3FDF506A-BAF0-4198-A660-0D744BD67E75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentacion", "1 Presentacion", "{787EA141-79F8-4FD4-B8DF-AB85747AAFAA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp_presentacion", "..\universidades1\asp_presentacion\asp_presentacion.csproj", "{C7731E9D-928D-4F1D-BC53-A24389A37DB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_comunicaciones", "lib_comunicaciones\lib_comunicaciones.csproj", "{1F30EBAF-2884-4919-8FFC-FC4954485B03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_comunicaciones", "lib_comunicaciones\lib_comunicaciones.csproj", "{1F30EBAF-2884-4919-8FFC-FC4954485B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_presentaciones", "lib_presentaciones\lib_presentaciones.csproj", "{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_presentaciones", "lib_presentaciones\lib_presentaciones.csproj", "{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

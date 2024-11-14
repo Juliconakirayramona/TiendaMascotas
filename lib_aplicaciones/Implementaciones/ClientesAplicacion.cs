@@ -25,7 +25,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
 
-            if (entidad.Id == 0)
+            if (entidad.ID_Persona == 0)
                 throw new Exception("lbNoSeGuardo");
 
             entidad = iRepositorio!.Borrar(entidad);
@@ -37,7 +37,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
 
-            if (entidad.Id != 0)
+            if (entidad.ID_Persona != 0)
                 throw new Exception("lbYaSeGuardo");
 
             entidad = iRepositorio!.Guardar(entidad);
@@ -49,28 +49,14 @@ namespace lib_aplicaciones.Implementaciones
             return iRepositorio!.Listar();
         }
 
-        public List<Clientes> Buscar(Clientes entidad, string tipo)
-        {
-            Expression<Func<Clientes, bool>>? condiciones = null;
-            switch (tipo.ToUpper())
-            {
-                case "NOMBRE": condiciones = x => x.Nombre!.Contains(entidad.Nombre!); break;
-                case "DIRECCION": condiciones = x => x.Cedula!.Contains(entidad.Cedula!); break;
-                case "COMPLEJA":
-                    condiciones =
-                        x => x.Nombre!.Contains(entidad.Nombre!) ||
-                             x.Cedula!.Contains(entidad.Cedula!); break;
-                default: condiciones = x => x.ID_Persona == entidad.ID_Persona; break;
-            }
-            return this.iRepositorio!.Buscar(condiciones);
-        }
+ 
 
         public Clientes Modificar(Clientes entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
 
-            if (entidad.Id == 0)
+            if (entidad.ID_Persona == 0)
                 throw new Exception("lbNoSeGuardo");
 
             entidad = iRepositorio!.Modificar(entidad);

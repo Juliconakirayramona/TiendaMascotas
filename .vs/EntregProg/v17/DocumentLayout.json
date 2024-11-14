@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lid_repositorios\\implementaciones\\mascotasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\implementaciones\\mascotasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lib_entidades\\modelos\\tipos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\tipos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lib_entidades\\modelos\\tipos_mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\tipos_mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lib_entidades\\modelos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lib_entidades\\modelos\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lib_entidades\\modelos\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lib_entidades\\modelos\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lid_repositorios\\interfaces\\ifacturasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\interfaces\\ifacturasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lid_repositorios\\interfaces\\iclientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\interfaces\\iclientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\juli g\\onedrive\\escritorio\\tiendamascotas\\tiendamascotas\\tiendamascotas\\lid_repositorios\\implementaciones\\clientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\implementaciones\\clientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MascotasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Implementaciones\\MascotasRepositorio.cs",
+              "RelativeDocumentMoniker": "lid_repositorios\\Implementaciones\\MascotasRepositorio.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Implementaciones\\MascotasRepositorio.cs",
+              "RelativeToolTip": "lid_repositorios\\Implementaciones\\MascotasRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:37:06.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tipos_Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Servicios.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Tipos_Servicios.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Servicios.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Tipos_Servicios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:37:04.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tipos_Mascotas.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Mascotas.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Tipos_Mascotas.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Mascotas.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Tipos_Mascotas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:37:03.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Servicios.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Servicios.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Servicios.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Servicios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:37:01.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mascotas.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Mascotas.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Mascotas.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Mascotas.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Mascotas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:37:00.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Facturas.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Facturas.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Facturas.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Facturas.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Facturas.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:36:57.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Clientes.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Clientes.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\Modelos\\Clientes.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Clientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:36:52.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IFacturasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Interfaces\\IFacturasRepositorio.cs",
+              "RelativeDocumentMoniker": "lid_repositorios\\Interfaces\\IFacturasRepositorio.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Interfaces\\IFacturasRepositorio.cs",
+              "RelativeToolTip": "lid_repositorios\\Interfaces\\IFacturasRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:36:33.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IClientesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
+              "RelativeDocumentMoniker": "lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
+              "RelativeToolTip": "lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:36:31.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Implementaciones\\ClientesRepositorio.cs",
+              "RelativeDocumentMoniker": "lid_repositorios\\Implementaciones\\ClientesRepositorio.cs",
+              "ToolTip": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\Implementaciones\\ClientesRepositorio.cs",
+              "RelativeToolTip": "lid_repositorios\\Implementaciones\\ClientesRepositorio.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:36:24.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

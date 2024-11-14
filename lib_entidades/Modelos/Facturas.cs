@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using lib_entidades.Modelos;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace lib_entidades
 {
@@ -19,6 +20,12 @@ namespace lib_entidades
         [NotMapped] public Mascotas? _Mascota { get; set; }
         [NotMapped] public Servicios? _Servicio { get; set; }
         [NotMapped] public Metodo_pago? _Pago { get; set; }
+        public bool Validar()
+        {
+            if (string.IsNullOrEmpty(Codigo_Factura))
+                return false;
+            return true;
+        }
 
     }
 }

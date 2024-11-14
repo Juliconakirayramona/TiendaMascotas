@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jeron\\Desktop\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {}
+    "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jeron\\Desktop\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+    "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeron\\Desktop\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
         "projectName": "lib_entidades",
-        "projectPath": "C:\\Users\\Jeron\\Desktop\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
-        "packagesPath": "C:\\Users\\Jeron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jeron\\Desktop\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\obj\\",
+        "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
+        "packagesPath": "C:\\Users\\Juli G\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jeron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juli G\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\lib_aplicaciones\lib_aplicaciones.csproj" />
     <ProjectReference Include="..\lib_entidades\lib_entidades.csproj" />
     <ProjectReference Include="..\lib_utilidades\lib_utilidades.csproj" />
     <ProjectReference Include="..\lid_repositorios\lid_repositorios.csproj" />

@@ -1,20 +1,20 @@
 ﻿using asp_servicios.Nucleo;
 using lib_aplicaciones.Interfaces;
-using lib_entidades.Modelos;
+using lib_entidades;
 using lib_utilidades;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
+
 
 namespace asp_servicios.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class ClientesController : ControllerBase
+    public class FacturasController : ControllerBase
     {
-        private IClientesAplicacion? iAplicacion = null;
+        private IFacturasAplicacion? iAplicacion = null;
         private TokenController? tokenController = null;
 
-        public ClientesController(IClientesAplicacion? iAplicacion,
+        public FacturasController(IFacturasAplicacion? iAplicacion,
             TokenController tokenController)
         {
             this.iAplicacion = iAplicacion;
@@ -65,7 +65,36 @@ namespace asp_servicios.Controllers
             }
         }
 
-        
+        [HttpPost]
+        public string Buscar()
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = ObtenerDatos();
+                if (!tokenController!.Validate(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+
+                var entidad = JsonConversor.ConvertirAObjeto<Facturas>(
+                    JsonConversor.ConvertirAString(datos["Entidad"]));
+                var tipo = datos["Tipo"].ToString();
+
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
+                respuesta["Entidades"] = this.iAplicacion!.Buscar(entidad, tipo);
+
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+        }
 
         [HttpPost]
         public string Guardar()
@@ -80,7 +109,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Facturas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -111,7 +140,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Facturas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -142,7 +171,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Facturas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));

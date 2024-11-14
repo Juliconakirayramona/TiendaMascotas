@@ -9,12 +9,12 @@ namespace asp_servicios.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class ClientesController : ControllerBase
+    public class Metodo_pagoController : ControllerBase
     {
-        private IClientesAplicacion? iAplicacion = null;
+        private IMetodo_pagoAplicacion? iAplicacion = null;
         private TokenController? tokenController = null;
 
-        public ClientesController(IClientesAplicacion? iAplicacion,
+        public Metodo_pagoController(IMetodo_pagoAplicacion? iAplicacion,
             TokenController tokenController)
         {
             this.iAplicacion = iAplicacion;
@@ -80,7 +80,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Metodo_pago>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -111,7 +111,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Metodo_pago>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -142,7 +142,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Metodo_pago>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));

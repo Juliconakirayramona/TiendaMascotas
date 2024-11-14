@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj": {}
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj",
         "projectName": "asp_servicios",
-        "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj",
-        "packagesPath": "C:\\Users\\Juli G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\asp_servicios\\obj\\",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\asp_servicios.csproj",
+        "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Juli G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Odair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,14 +33,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\lib_aplicaciones.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\lib_aplicaciones.csproj"
               },
-              "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
-                "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
               },
-              "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj": {
-                "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj"
+              },
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj"
               }
             }
           }
@@ -74,21 +81,97 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\lib_aplicaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
-        "projectName": "lib_entidades",
-        "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
-        "packagesPath": "C:\\Users\\Juli G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\obj\\",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\lib_aplicaciones.csproj",
+        "projectName": "lib_aplicaciones",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\lib_aplicaciones.csproj",
+        "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Juli G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Odair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
+              },
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
+        "projectName": "lib_entidades",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
+        "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jose Odair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -149,21 +232,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
         "projectName": "lib_utilidades",
-        "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
-        "packagesPath": "C:\\Users\\Juli G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_utilidades\\obj\\",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
+        "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Juli G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Odair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -216,21 +303,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj",
         "projectName": "lid_repositorios",
-        "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj",
-        "packagesPath": "C:\\Users\\Juli G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lid_repositorios\\obj\\",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\lid_repositorios.csproj",
+        "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lid_repositorios\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Juli G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Odair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,8 +336,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
               }
             }
           }
@@ -295,7 +386,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

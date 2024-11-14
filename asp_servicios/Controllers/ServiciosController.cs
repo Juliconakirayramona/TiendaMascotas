@@ -9,12 +9,12 @@ namespace asp_servicios.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class ClientesController : ControllerBase
+    public class ServiciosController : ControllerBase
     {
-        private IClientesAplicacion? iAplicacion = null;
+        private IServiciosAplicacion? iAplicacion = null;
         private TokenController? tokenController = null;
 
-        public ClientesController(IClientesAplicacion? iAplicacion,
+        public ServiciosController(IServiciosAplicacion? iAplicacion,
             TokenController tokenController)
         {
             this.iAplicacion = iAplicacion;
@@ -80,7 +80,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Servicios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -111,7 +111,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Servicios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -142,7 +142,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
+                var entidad = JsonConversor.ConvertirAObjeto<Servicios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));

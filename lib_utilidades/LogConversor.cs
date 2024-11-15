@@ -20,7 +20,7 @@
             //    ViewData!["Mensaje"] = msg;
             //    return;
             //}
-            //ViewData!["Mensaje"] = mensaje;
+            ViewData!["Mensaje"] = mensaje;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using lib_entidades.Modelos;
+﻿using lib_entidades;
+using lib_entidades.Modelos;
 using lib_repositorios;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;

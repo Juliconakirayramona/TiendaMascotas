@@ -45,6 +45,25 @@ CONSTRAINT [PK_idtiposervicio] PRIMARY KEY CLUSTERED ([ID_TipoServicio]),
 CONSTRAINT [FK_TipoServicio_Servicio] FOREIGN KEY ([Servicio]) REFERENCES Servicios ([ID_Servicio])
 );
 
+CREATE TABLE Usuarios (
+[ID_Usuario] INT NOT NULL IDENTITY (1,1),
+
+CONSTRAINT [PK_idusuario] PRIMARY KEY CLUSTERED ([ID_Usuario]),
+);
+
+CREATE TABLE ModuloRoles (
+[ID_Modulo] INT NOT NULL IDENTITY (1,1),
+
+CONSTRAINT [PK_idmodulo] PRIMARY KEY CLUSTERED ([ID_Modulo]),
+);
+
+CREATE TABLE Auditorias (
+[ID_Auditoria] INT NOT NULL IDENTITY (1,1),
+
+CONSTRAINT [PK_idauditoria] PRIMARY KEY CLUSTERED ([ID_Auditoria]),
+);
+
+
 
 CREATE TABLE Metodo_Pago (
 [ID_Pago] INT NOT NULL IDENTITY (1,1),

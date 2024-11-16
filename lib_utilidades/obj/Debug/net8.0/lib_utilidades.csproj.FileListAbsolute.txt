@@ -36,3 +36,16 @@ C:\Users\Jose Odair\Source\Repos\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\
 C:\Users\Jose Odair\Source\Repos\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\refint\lib_utilidades.dll
 C:\Users\Jose Odair\Source\Repos\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.pdb
 C:\Users\Jose Odair\Source\Repos\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\ref\lib_utilidades.dll
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\bin\Debug\net8.0\lib_utilidades.deps.json
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.csproj.AssemblyReference.cache
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.AssemblyInfoInputs.cache
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.AssemblyInfo.cs
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.sourcelink.json
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.dll
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\refint\lib_utilidades.dll
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Jose Odair\source\repos\Juliconakirayramona\TiendaMascotas\lib_utilidades\obj\Debug\net8.0\ref\lib_utilidades.dll

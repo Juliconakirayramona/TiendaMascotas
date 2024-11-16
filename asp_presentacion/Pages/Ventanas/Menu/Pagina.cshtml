@@ -1,0 +1,56 @@
+﻿@page
+@model asp_presentacion.Pages.Ventanas.Menu.MenuModel
+@{
+}
+<form method="POST"
+      enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <h2>Ventana de Menu</h2>
+
+    @if (ViewData.ContainsKey("Mensaje"))
+    {
+        @await Html.PartialAsync("../../Emergentes/Mensajes.cshtml")
+        ;
+    }
+
+    <div>
+        <div class="form-group">
+            <label class="col-lg-4 control-label">
+                ID_Persona
+            </label>
+            <div class="col-lg-6">
+                <input id="nmID_Persona"
+                       class="cts_forms form-control"
+                       asp-for="@Model.Actual!.ID_Persona" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-4 control-label">
+                Nombre
+            </label>
+            <div class="col-lg-6">
+                <input id="nmNombre"
+                       class="cts_forms form-control"
+                       asp-for="@Model.Actual!.Nombre" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-4 control-label">
+                Cedula
+            </label>
+            <div class="col-lg-6">
+                <input id="nmCedula"
+                       class="cts_forms form-control"
+                       asp-for="@Model.Actual!.Cedula" />
+            </div>
+        </div>
+
+        <input type="submit"
+               value="Guardar"
+               asp-page-handler="BtGuardar"
+               class="btn btn-secondary" />
+    </div>
+
+    @await Html.PartialAsync("Lista.cshtml");
+</form>

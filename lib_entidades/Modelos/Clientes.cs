@@ -8,10 +8,14 @@ namespace lib_entidades.Modelos
         [Key] public int ID_Persona { get; set; }
         public string? Cedula { get; set; }
         public string? Nombre { get; set; }
+
+        public bool Activa { get; set; }
+
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Cedula) ||
                 string.IsNullOrEmpty(Nombre))
+               
                 return false;
             return true;
         }

@@ -1,0 +1,44 @@
+﻿<div class="containers_vn panel panel-default">
+    <table class="tb_data table table-striped table-bordered table-hover">
+        <tr>
+            <th>
+                IdCliente
+            </th>
+             <th>
+                Nombre
+            </th>
+            <th>
+                Direccion
+            </th>
+            <th>
+                Fecha
+            </th>
+             <th>
+                Telefono
+            </th>
+            <th class="cl_actions">
+                Accion
+            </th>
+          
+        </tr>
+            @if (Model!= null && Model.Lista!= null)
+            {
+            @foreach (var elemento in Model.Lista)
+            {
+                <tr>
+                    <td>
+                        @elemento.IdCliente
+                    </td>
+                    <td>
+                        @elemento.Nombre
+                    </td>
+                    <td >
+                        @elemento.Direccion
+                    </td>
+                   
+                    
+                </tr>
+            }
+        }
+    </table>
+</div>

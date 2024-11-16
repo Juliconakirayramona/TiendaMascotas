@@ -87,7 +87,3 @@ CONSTRAINT [FK_Factura_Mascota] FOREIGN KEY ([Mascota]) REFERENCES Mascotas ([ID
 CONSTRAINT [FK_Factura_Servicio] FOREIGN KEY ([Servicio]) REFERENCES Servicios ([ID_Servicio]),
 CONSTRAINT [FK_Factura_Pago] FOREIGN KEY ([Pago]) REFERENCES Metodo_Pago ([ID_Pago])
 );
-
-
-
-

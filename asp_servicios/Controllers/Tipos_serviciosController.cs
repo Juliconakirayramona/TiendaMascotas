@@ -6,16 +6,16 @@ using lib_utilidades;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace asp_Tipos_servicios.Controllers
+namespace asp_Clientes_servicios.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class Tipos_serviciosController : ControllerBase
+    public class Clientes_serviciosController : ControllerBase
     {
-        private ITipos_serviciosAplicacion? iAplicacion = null;
+        private IClientes_serviciosAplicacion? iAplicacion = null;
         private TokenController? tokenController = null;
 
-        public Tipos_serviciosController(ITipos_serviciosAplicacion? iAplicacion,
+        public Clientes_serviciosController(IClientes_serviciosAplicacion? iAplicacion,
             TokenController tokenController)
         {
             this.iAplicacion = iAplicacion;
@@ -81,7 +81,7 @@ namespace asp_Tipos_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Tipos_servicios>(
+                var entidad = JsonConversor.ConvertirAObjeto<Clientes_servicios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -112,7 +112,7 @@ namespace asp_Tipos_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Tipos_servicios>(
+                var entidad = JsonConversor.ConvertirAObjeto<Clientes_servicios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -143,7 +143,7 @@ namespace asp_Tipos_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Tipos_servicios>(
+                var entidad = JsonConversor.ConvertirAObjeto<Clientes_servicios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));

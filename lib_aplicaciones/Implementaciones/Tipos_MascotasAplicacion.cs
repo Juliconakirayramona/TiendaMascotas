@@ -6,11 +6,11 @@ using lib_entidades.Modelos;
 
 namespace lib_aplicaciones.Implementaciones
 {
-    public class Tipos_mascotasAplicacion : ITipos_mascotasAplicacion
+    public class Clientes_mascotasAplicacion : IClientes_mascotasAplicacion
     {
-        private ITipos_mascotasRepositorio? iRepositorio = null;
+        private IClientes_mascotasRepositorio? iRepositorio = null;
 
-        public Tipos_mascotasAplicacion(ITipos_mascotasRepositorio iRepositorio)
+        public Clientes_mascotasAplicacion(IClientes_mascotasRepositorio iRepositorio)
         {
             this.iRepositorio = iRepositorio;
         }
@@ -20,7 +20,7 @@ namespace lib_aplicaciones.Implementaciones
             this.iRepositorio!.Configurar(string_conexion);
         }
 
-        public Tipos_mascotas Borrar(Tipos_mascotas entidad)
+        public Clientes_mascotas Borrar(Clientes_mascotas entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
@@ -32,7 +32,7 @@ namespace lib_aplicaciones.Implementaciones
             return entidad;
         }
 
-        public Tipos_mascotas Guardar(Tipos_mascotas entidad)
+        public Clientes_mascotas Guardar(Clientes_mascotas entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
@@ -44,12 +44,12 @@ namespace lib_aplicaciones.Implementaciones
             return entidad;
         }
 
-        public List<Tipos_mascotas> Listar()
+        public List<Clientes_mascotas> Listar()
         {
             return iRepositorio!.Listar();
         }
 
-        public Tipos_mascotas Modificar(Tipos_mascotas entidad)
+        public Clientes_mascotas Modificar(Clientes_mascotas entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");

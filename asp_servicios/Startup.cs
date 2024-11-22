@@ -23,16 +23,17 @@ namespace asp_servicios
             services.Configure<IISServerOptions>(x => { x.AllowSynchronousIO = true; });
             services.AddControllers();
             services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen();
+            
+            //services.AddSwaggerGen();
             services.AddScoped<Conexion, Conexion>();
             // Repositorios
+            services.AddScoped<IMascotasRepositorio, MascotasRepositorio>();
             services.AddScoped<IClientesRepositorio, ClientesRepositorio>();
             // Aplicaciones
+            services.AddScoped<IMascotasAplicacion, MascotasAplicacion>();
             services.AddScoped<IClientesAplicacion, ClientesAplicacion>();
             // Controladores
             services.AddScoped<TokenController, TokenController>();
-            Conexion Conexion = new Conexion();
-            IClientesRepositorio ICasasRepositorio = new ClientesRepositorio(Conexion);
 
             services.AddCors(o => o.AddDefaultPolicy(b => b.AllowAnyOrigin()));
         }
@@ -41,8 +42,8 @@ namespace asp_servicios
         {
             if (env.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                //app.UseSwagger();
+                //app.UseSwaggerUI();
             }
             app.UseHttpsRedirection();
             app.UseAuthorization();

@@ -4,7 +4,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace lib_entidades.Modelos
 {
-    public class Tipos_mascotas
+    public class Clientes_mascotas
     {
         [Key] public int ID_TipoMascota { get; set; }
         public string? TipoDeMascota { get; set; }

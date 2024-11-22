@@ -7,8 +7,13 @@ namespace lib_repositorios.Interfaces
     {
         void Configurar(string string_conexion);
         List<Clientes> Listar();
+
+        List<Clientes> Buscar(Expression<Func<Clientes, bool>> condiciones);
         Clientes Guardar(Clientes entidad);
         Clientes Modificar(Clientes entidad);
         Clientes Borrar(Clientes entidad);
     }
+
+   
+
 }

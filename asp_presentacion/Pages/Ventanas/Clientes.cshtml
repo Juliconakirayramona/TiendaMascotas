@@ -74,7 +74,7 @@
                                 Nombre
                             </label>
                             <div class="col-lg-6">
-                            <input id="nmDireccion"
+                            <input id="nm"
                                     class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Nombre" />
                             </div>
@@ -88,7 +88,8 @@
                                     class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Cedula" />
                             </div>
-                       
+
+                            <!--
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
@@ -97,8 +98,8 @@
                             <div class="col-lg-6">
                             <input id="nmActiva"
                                     type="checkbox"
-                                    asp-for="@Model.Actual!.Activa" />
-                            </div>
+                                    asp-for="  
+                                </div>  -->
                         </div>
                     </div>
                 </div>
@@ -164,9 +165,9 @@
                                 Cedula
                             </th>
                             
-                            <th class="cl_hidden">
+                          <!--  <th class="cl_hidden">
                                 Activa
-                            </th>
+                            </th> -->
                             <th class="cl_actions">
                                 Accion
                             </th>
@@ -188,9 +189,9 @@
                                 <td>
                                     @elemento.Cedula
                                 </td>
-                                <td class="cl_hidden">
-                                    @elemento.Activa
-                                </td>
+                            <td class="cl_hidden">
+                                    
+                                    </td> 
                                     <td>
                                         <input type="submit"
                                                value="Modicar"

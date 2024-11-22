@@ -1,5 +1,4 @@
-﻿using lib_entidades;
-using lib_aplicaciones.Interfaces;
+﻿using lib_aplicaciones.Interfaces;
 using lib_repositorios.Interfaces;
 using System.Linq.Expressions;
 using lib_entidades.Modelos;
@@ -49,7 +48,16 @@ namespace lib_aplicaciones.Implementaciones
             return iRepositorio!.Listar();
         }
 
- 
+        public List<Clientes> Buscar(Clientes entidad, string tipo)
+        {
+            Expression<Func<Clientes, bool>>? condiciones = null;
+            switch (tipo.ToUpper())
+            {
+                case "NOMBRE": condiciones = x => x.Nombre!.Contains(entidad.Nombre!); break;
+                default: condiciones = x => x.ID_Persona == entidad.ID_Persona; break;
+            }
+            return this.iRepositorio!.Buscar(condiciones);
+        }
 
         public Clientes Modificar(Clientes entidad)
         {

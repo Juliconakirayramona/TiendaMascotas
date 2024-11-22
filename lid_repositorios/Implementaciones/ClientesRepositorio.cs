@@ -1,4 +1,5 @@
-﻿using lib_entidades.Modelos;
+﻿using lib_entidades;
+using lib_entidades.Modelos;
 using lib_repositorios.Interfaces;
 using System.Linq.Expressions;
 
@@ -21,6 +22,11 @@ namespace lib_repositorios.Implementaciones
         public List<Clientes> Listar()
         {
             return conexion!.Listar<Clientes>();
+        }
+
+        public List<Clientes> Buscar(Expression<Func<Clientes, bool>> condiciones)
+        {
+            return conexion!.Buscar(condiciones);
         }
 
         public Clientes Guardar(Clientes entidad)

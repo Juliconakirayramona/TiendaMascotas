@@ -1,32 +1,142 @@
-using lib_entidades;
+
 using lib_entidades.Modelos;
-using Microsoft.AspNetCore.Mvc;
+using lib_presentaciones.Interfaces;
+using lib_utilidades;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc;
 
 namespace asp_presentacion.Pages.Ventanas.Menu
 {
     public class MenuModel : PageModel
     {
-        public void OnGet()
-        {
-            ViewData["Mensaje"] = "Pruebas de datos";
+        private IClientespresentacion? iPresentacion = null;
 
-            Lista.Add(new Clientes()
+        public MenuModel(IClientespresentacion iPresentacion)
+        {
+            try
             {
-                ID_Persona = 1,
-                Cedula = "120129283",
-                Nombre = "Juan",
-            });
-
+                this.iPresentacion = iPresentacion;
+                Filtro = new Clientes();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
         }
 
-        public Clientes Actual { get; set; }
-        public void OnPostBtGuardar()
+        [BindProperty] public Enumerables.Ventanas Accion { get; set; }
+        [BindProperty] public Clientes? Actual { get; set; }
+        [BindProperty] public Clientes? Filtro { get; set; }
+        [BindProperty] public List<Clientes>? Lista { get; set; }
+
+        public async Task OnGet()
         {
-            Lista.Add(Actual);
+            await OnPostBtRefrescar();
         }
-        public List<Clientes> Lista { get; set; } = new List<Clientes>();
-    }
 
+        public async Task OnPostBtRefrescar()
+        {
+            try
+            {
+                Filtro!.Nombre = Filtro!.Nombre ?? "";
+
+                Accion = Enumerables.Ventanas.Listas;
+                Lista = await this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
+                Actual = null;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public async Task OnPostBtModificar(string data)
+        {
+            try
+            {
+                await OnPostBtRefrescar();
+                Accion = Enumerables.Ventanas.Editar;
+                Actual = Lista!.FirstOrDefault(x => x.ID_Persona.ToString() == data);
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public async Task OnPostBtGuardar()
+        {
+            try
+            {
+                Accion = Enumerables.Ventanas.Editar;
+                Task<Clientes>? task = null;
+                if (Actual!.ID_Persona == 0)
+                    task = this.iPresentacion!.Guardar(Actual!);
+                else
+                    task = this.iPresentacion!.Modificar(Actual!);
+                Actual = await task;
+                Accion = Enumerables.Ventanas.Listas;
+                await OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public async Task OnPostBtBorrarVal(string data)
+        {
+            try
+            {
+                await OnPostBtRefrescar();
+                Accion = Enumerables.Ventanas.Borrar;
+                Actual = Lista!.FirstOrDefault(x => x.ID_Persona.ToString() == data);
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public async Task OnPostBtBorrar()
+        {
+            try
+            {
+                var task = this.iPresentacion!.Borrar(Actual!);
+                Actual = await task;
+                await OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public async Task OnPostBtCancelar()
+        {
+            try
+            {
+                Accion = Enumerables.Ventanas.Listas;
+                await OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public async Task OnPostBtCerrar()
+        {
+            try
+            {
+                if (Accion == Enumerables.Ventanas.Listas)
+                    await OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+    }
 
 }

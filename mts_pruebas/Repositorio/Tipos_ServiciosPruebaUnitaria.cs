@@ -6,18 +6,18 @@ using lib_repositorios.Interfaces;
 namespace mst_pruebas.Repositorios
 {
     [TestClass]
-    public class Tipos_serviciosPruebaUnitaria
+    public class Clientes_serviciosPruebaUnitaria
     {
-        private ITipos_serviciosRepositorio? iRepositorio = null;
+        private IClientes_serviciosRepositorio? iRepositorio = null;
         private Conexion? conexion = null;
-        private Tipos_servicios? entidad = null;
-        private List<Tipos_servicios>? lista = null;
+        private Clientes_servicios? entidad = null;
+        private List<Clientes_servicios>? lista = null;
 
-        public Tipos_serviciosPruebaUnitaria()
+        public Clientes_serviciosPruebaUnitaria()
         {
             conexion = new Conexion();
             conexion.StringConnection = "server=localhost;database=TiendaDeMascotas;Integrated Security=True;TrustServerCertificate=true;";
-            iRepositorio = new Tipos_serviciosRepositorio(conexion);
+            iRepositorio = new Clientes_serviciosRepositorio(conexion);
         }
 
         [TestMethod]
@@ -38,14 +38,14 @@ namespace mst_pruebas.Repositorios
 
         public void Guardar()
         {
-            entidad = new Tipos_servicios()
+            entidad = new Clientes_servicios()
             {
                 Tipo_Servicio = "TEST1",
                 Servicio = 2
 
             };
             entidad = iRepositorio!.Guardar(entidad!);
-            Assert.IsTrue(entidad.ID_TipoServicio != 0);
+            Assert.IsTrue(entidad.ID_Clienteservicio != 0);
         }
 
         public void Modificar()
@@ -53,14 +53,14 @@ namespace mst_pruebas.Repositorios
             entidad!.Tipo_Servicio = entidad.Tipo_Servicio + "123";
             entidad = iRepositorio!.Modificar(entidad!);
 
-            Assert.IsTrue(entidad.ID_TipoServicio != 0);
+            Assert.IsTrue(entidad.ID_Clienteservicio != 0);
         }
 
         public void Borrar()
         {
             entidad = iRepositorio!.Borrar(entidad!);
 
-            Assert.IsTrue(entidad.ID_TipoServicio != 0);
+            Assert.IsTrue(entidad.ID_Clienteservicio != 0);
         }
     }
 }

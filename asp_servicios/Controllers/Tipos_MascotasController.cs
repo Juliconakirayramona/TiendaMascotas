@@ -6,16 +6,16 @@ using lib_utilidades;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace asp_Tipos_mascotas.Controllers
+namespace asp_Clientes_mascotas.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class Tipos_mascotasController : ControllerBase
+    public class Clientes_mascotasController : ControllerBase
     {
-        private ITipos_mascotasAplicacion? iAplicacion = null;
+        private IClientes_mascotasAplicacion? iAplicacion = null;
         private TokenController? tokenController = null;
 
-        public Tipos_mascotasController(ITipos_mascotasAplicacion? iAplicacion,
+        public Clientes_mascotasController(IClientes_mascotasAplicacion? iAplicacion,
             TokenController tokenController)
         {
             this.iAplicacion = iAplicacion;
@@ -81,7 +81,7 @@ namespace asp_Tipos_mascotas.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Tipos_mascotas>(
+                var entidad = JsonConversor.ConvertirAObjeto<Clientes_mascotas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -112,7 +112,7 @@ namespace asp_Tipos_mascotas.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Tipos_mascotas>(
+                var entidad = JsonConversor.ConvertirAObjeto<Clientes_mascotas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
@@ -143,7 +143,7 @@ namespace asp_Tipos_mascotas.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Tipos_mascotas>(
+                var entidad = JsonConversor.ConvertirAObjeto<Clientes_mascotas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));

@@ -6,6 +6,7 @@ using System.Linq.Expressions;
 namespace lib_repositorios.Implementaciones
 {
     public class MascotasRepositorio : IMascotasRepositorio
+    
     {
         private Conexion? conexion = null;
 
@@ -22,6 +23,11 @@ namespace lib_repositorios.Implementaciones
         public List<Mascotas> Listar()
         {
             return conexion!.Listar<Mascotas>();
+        }
+
+        public List<Mascotas> Buscar(Expression<Func<Mascotas, bool>> condiciones)
+        {
+            return conexion!.Buscar(condiciones);
         }
 
         public Mascotas Guardar(Mascotas entidad)

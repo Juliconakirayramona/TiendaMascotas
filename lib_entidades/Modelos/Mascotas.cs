@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using lib_entidades.Modelos;
 
-namespace lib_entidades
+
+namespace lib_entidades.Modelos
 {
     public class Mascotas
     {
@@ -12,11 +12,18 @@ namespace lib_entidades
         public string? Genero { get; set; }
         public string? Edad { get; set; }
         public int Dueño { get; set; }
-        [NotMapped] public Clientes? _Dueño { get; set; }
+
+
+        [ForeignKey("Dueño")] public Clientes? _Dueño { get; set; }
+
+
+
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Cod_Mascota) ||
-                string.IsNullOrEmpty(Nombre))
+                string.IsNullOrEmpty(Nombre) ||
+                    Dueño <= 0)
+
                 return false;
             return true;
         }

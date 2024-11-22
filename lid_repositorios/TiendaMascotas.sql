@@ -38,11 +38,11 @@ CONSTRAINT [FK_Servicio_Mascota] FOREIGN KEY ([Mascota]) REFERENCES Mascotas ([I
 );
 
 CREATE TABLE Tipo_Servicios (
-[ID_TipoServicio] INT NOT NULL IDENTITY (1,1),
+[ID_Clienteservicio] INT NOT NULL IDENTITY (1,1),
 [Tipo_Servicio] nvarchar (300),
 [Servicio] INT NOT NULL,
-CONSTRAINT [PK_idtiposervicio] PRIMARY KEY CLUSTERED ([ID_TipoServicio]),
-CONSTRAINT [FK_TipoServicio_Servicio] FOREIGN KEY ([Servicio]) REFERENCES Servicios ([ID_Servicio])
+CONSTRAINT [PK_idClienteservicio] PRIMARY KEY CLUSTERED ([ID_Clienteservicio]),
+CONSTRAINT [FK_Clienteservicio_Servicio] FOREIGN KEY ([Servicio]) REFERENCES Servicios ([ID_Servicio])
 );
 
 CREATE TABLE Usuarios (

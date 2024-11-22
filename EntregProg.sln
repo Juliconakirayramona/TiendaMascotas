@@ -25,6 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp_servicios", "asp_servic
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_aplicaciones", "lib_aplicaciones\lib_aplicaciones.csproj", "{3FDF506A-BAF0-4198-A660-0D744BD67E75}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463} = {E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentacion", "1 Presentacion", "{787EA141-79F8-4FD4-B8DF-AB85747AAFAA}"
 EndProject

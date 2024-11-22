@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace lib_entidades.Modelos
 {
@@ -9,7 +9,11 @@ namespace lib_entidades.Modelos
         public string? Cedula { get; set; }
         public string? Nombre { get; set; }
 
-        public bool Activa { get; set; }
+
+        [NotMapped] public virtual ICollection<Mascotas>? Mascotas { get; set; }
+
+
+        
 
         public bool Validar()
         {

@@ -1,7 +1,5 @@
-﻿using lib_entidades;
-using lib_entidades.Modelos;
+﻿using lib_entidades.Modelos;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using System.Linq.Expressions;
 
 namespace lib_repositorios
@@ -18,12 +16,6 @@ namespace lib_repositorios
 
         protected DbSet<Clientes>? Clientes { get; set; }
         protected DbSet<Mascotas>? Mascotas { get; set; }
-        protected DbSet<Tipos_mascotas>? Tipo_Mascotas { get; set; }
-        protected DbSet<Servicios>? Servicios{ get; set; }
-        protected DbSet<Tipos_servicios>? Tipo_Servicios { get; set; }
-        protected DbSet<Metodo_pago>? Metodo_Pago { get; set; }
-        protected DbSet<Facturas>? Facturas { get; set; }
-
 
         public virtual DbSet<T> ObtenerSet<T>() where T : class, new()
         {
@@ -38,6 +30,13 @@ namespace lib_repositorios
         public virtual List<T> Buscar<T>(Expression<Func<T, bool>> condiciones) where T : class, new()
         {
             return this.Set<T>().Where(condiciones).ToList();
+        }
+        public virtual List<Mascotas> Buscar(Expression<Func<Mascotas, bool>> condiciones)
+        {
+            return this.Set<Mascotas>()
+                .Include(x => x._Dueño)
+                .Where(condiciones)
+                .ToList();
         }
 
         public virtual bool Existe<T>(Expression<Func<T, bool>> condiciones) where T : class, new()

@@ -2,12 +2,12 @@
 
 namespace lib_aplicaciones.Interfaces
 {
-    public interface IClientes_mascotasAplicacion
+    public interface ITipos_mascotasAplicacion
     {
         void Configurar(string string_conexion);
-        List<Clientes_mascotas> Listar();
-        Clientes_mascotas Guardar(Clientes_mascotas entidad);
-        Clientes_mascotas Modificar(Clientes_mascotas entidad);
-        Clientes_mascotas Borrar(Clientes_mascotas entidad);
+        List<Tipos_mascotas> Listar();
+        Tipos_mascotas Guardar(Tipos_mascotas entidad);
+        Tipos_mascotas Modificar(Tipos_mascotas entidad);
+        Tipos_mascotas Borrar(Tipos_mascotas entidad);
     }
 }

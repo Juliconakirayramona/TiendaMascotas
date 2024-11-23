@@ -8,12 +8,10 @@ namespace lib_repositorios.Implementaciones
     public class AuditoriasRepositorio : IAuditoriasRepositorio
     {
         private Conexion? conexion = null;
-        private IAuditoriasRepositorio? IAuditoriasRepositorio = null;
 
-        public AuditoriasRepositorio(Conexion conexion, IAuditoriasRepositorio IAuditoriasRepositorio)
+        public AuditoriasRepositorio(Conexion conexion)
         {
             this.conexion = conexion;
-            this.IAuditoriasRepositorio = IAuditoriasRepositorio;
         }
 
         public void Configurar(string string_conexion)
@@ -23,8 +21,6 @@ namespace lib_repositorios.Implementaciones
 
         public List<Auditorias> Listar()
         {
-
-            
             return conexion!.Listar<Auditorias>();
         }
 
@@ -37,14 +33,6 @@ namespace lib_repositorios.Implementaciones
         {
             conexion!.Guardar(entidad);
             conexion!.GuardarCambios();
-
-            IAuditoriasRepositorio.Guardar(new Auditorias()
-            {
-                Tabla = "FActuras",
-                Referencia = entidad.ID_Auditoria,
-                Accion = "Guardar"
-            });
-
             return entidad;
         }
 
@@ -59,8 +47,6 @@ namespace lib_repositorios.Implementaciones
         {
             conexion!.Borrar(entidad);
             conexion!.GuardarCambios();
-
-
             return entidad;
         }
     }

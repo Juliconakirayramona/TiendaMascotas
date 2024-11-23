@@ -8,8 +8,9 @@
                 Nombre
             </th>
             <th>
-                Fecha
+                Cedula
             </th>
+            
             <th class="cl_actions">
                 Accion
             </th>
@@ -25,18 +26,17 @@
                     <td>
                         @elemento.Nombre
                     </td>
-                   
+                    <td>
+                        @elemento.Cedula
+                    </td>
+
+
                     <td class="cl_actions">
                         
                     </td>
                 </tr>
             }
         }
-        else
-        {
-            <tr>
-                <td colspan="5">No hay datos disponibles.</td>
-            </tr>
-        }
+        
     </table>
 </div>

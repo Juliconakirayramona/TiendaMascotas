@@ -15,7 +15,7 @@
             <div align="left"
                  class="bt_panel_buttons">
                 <input type="submit"
-                       value="Refrescar"
+                       value="Filtrar"
                        asp-page-handler="BtRefrescar"
                        class="btn btn-secondary"
                        disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
@@ -56,7 +56,7 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>Casa</h3>
+                    <h3>EDITAR CLIENTE</h3>
 
                     <div>
                         <div class="form-group">
@@ -64,7 +64,7 @@
                                 ID_Persona
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmNombre"
+                                <input id="nmID_Persona"
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.ID_Persona" />
                             </div>
@@ -74,7 +74,7 @@
                                 Nombre
                             </label>
                             <div class="col-lg-6">
-                                <input id="nm"
+                                <input id="nmNombre"
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Nombre" />
                             </div>
@@ -113,6 +113,37 @@
                          "../../Emergentes/Mensajes.cshtml")
                 ;
             }
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Nuevo || Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
+            {
+                <div class="containers_vn panel panel-default">
+                    <h3>INGRESA CLIENTE</h3>
+
+                    <div>
+                        
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Nombre
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Nombre" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Cedula
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmCedula"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Cedula" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
@@ -184,17 +215,14 @@
                                     <td class="cl_hidden">
                                         @elemento.ID_Persona
                                     </td>
-                                    <td class="cl_hidden">
-                                        @elemento.Nombre
-                                    </td>
+                                    
                                     <td>
                                         @elemento.Cedula
                                     </td>
-                                    <td class="cl_hidden">
-                                    </td>
+                                    
                                     <td>
                                         <input type="submit"
-                                               value="Modicar"
+                                               value="Modificar"
                                                asp-page-handler="BtModificar"
                                                class="btn btn-secondary"
                                                asp-route-data="@elemento.ID_Persona" />
@@ -205,6 +233,7 @@
                                                asp-route-data="@elemento.ID_Persona" />
                                     </td>
                                 </tr>
+                              
                             }
                         }
                     </table>

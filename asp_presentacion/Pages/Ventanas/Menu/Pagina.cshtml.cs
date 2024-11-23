@@ -64,13 +64,27 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             }
         }
 
+
+        public async Task OnPostBtNuevo()
+        {
+            try
+            {
+                Accion = Enumerables.Ventanas.Nuevo; 
+                Actual = new Clientes(); 
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
         public async Task OnPostBtGuardar()
         {
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
                 Task<Clientes>? task = null;
-                if (Actual!.ID_Persona == 0)
+                if (Actual!.ID_Persona == 0 )
                     task = this.iPresentacion!.Guardar(Actual!);
                 else
                     task = this.iPresentacion!.Modificar(Actual!);

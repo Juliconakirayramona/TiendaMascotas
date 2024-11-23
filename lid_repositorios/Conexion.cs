@@ -16,6 +16,7 @@ namespace lib_repositorios
 
         protected DbSet<Clientes>? Clientes { get; set; }
         protected DbSet<Mascotas>? Mascotas { get; set; }
+        protected DbSet<Tipo_Mascotas> Tipo_Mascotas { get; set; }
 
         public virtual DbSet<T> ObtenerSet<T>() where T : class, new()
         {
@@ -35,6 +36,13 @@ namespace lib_repositorios
         {
             return this.Set<Mascotas>()
                 .Include(x => x._Dueño)
+                .Where(condiciones)
+                .ToList();
+        }
+        public virtual List<Tipo_Mascotas> Buscar(Expression<Func<Tipo_Mascotas, bool>> condiciones)
+        {
+            return this.Set<Tipo_Mascotas>()
+                .Include(x => x._Mascota)
                 .Where(condiciones)
                 .ToList();
         }

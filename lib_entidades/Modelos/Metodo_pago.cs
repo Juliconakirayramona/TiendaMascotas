@@ -8,6 +8,7 @@ namespace lib_entidades.Modelos
     {
         [Key] public int ID_Pago { get; set; }
         public string? Tipo_Pago { get; set; }
+        [NotMapped] public virtual ICollection<Facturas>? Facturas { get; set; }
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Tipo_Pago))

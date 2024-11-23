@@ -4,9 +4,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace lib_entidades.Modelos
 {
-    public class Clientes_servicios
+    public class Tipos_servicios
     {
-        [Key] public int ID_Clienteservicio { get; set; }
+        [Key] public int ID_Tiposervicio { get; set; }
         public string? Tipo_Servicio { get; set; }
         public int Servicio { get; set; }
         [NotMapped] public Servicios? _Servicio { get; set; }

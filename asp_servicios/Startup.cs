@@ -29,10 +29,12 @@ namespace asp_servicios
             // Repositorios
             services.AddScoped<IMascotasRepositorio, MascotasRepositorio>();
             services.AddScoped<IClientesRepositorio, ClientesRepositorio>();
+            services.AddScoped<ITipos_MascotasRepositorio, Tipos_MascotasRepositorio>();
             services.AddScoped<IAuditoriasRepositorio, AuditoriasRepositorio>();
             // Aplicaciones
             services.AddScoped<IMascotasAplicacion, MascotasAplicacion>();
             services.AddScoped<IClientesAplicacion, ClientesAplicacion>();
+            services.AddScoped<ITipos_MascotasAplicacion, Tipos_MascotasAplicacion>();
             // Controladores
             services.AddScoped<TokenController, TokenController>();
 

@@ -2,12 +2,12 @@
 
 namespace lib_aplicaciones.Interfaces
 {
-    public interface IClientes_serviciosAplicacion
+    public interface ITipos_serviciosAplicacion
     {
         void Configurar(string string_conexion);
-        List<Clientes_servicios> Listar();
-        Clientes_servicios Guardar(Clientes_servicios entidad);
-        Clientes_servicios Modificar(Clientes_servicios entidad);
-        Clientes_servicios Borrar(Clientes_servicios entidad);
+        List<Tipos_servicios> Listar();
+        Tipos_servicios Guardar(Tipos_servicios entidad);
+        Tipos_servicios Modificar(Tipos_servicios entidad);
+        Tipos_servicios Borrar(Tipos_servicios entidad);
     }
 }

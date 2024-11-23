@@ -2,12 +2,12 @@
 
 namespace lib_presentaciones.Interfaces
 {
-    public interface ITipos_mascotaspresentacion
+    public interface ITipos_Mascotaspresentacion
     {
-        Task<List<Tipos_mascotas>> Listar();
-        Task<List<Tipos_mascotas>> Buscar(Tipos_mascotas entidad, string tipo);
-        Task<Tipos_mascotas> Guardar(Tipos_mascotas entidad);
-        Task<Tipos_mascotas> Modificar(Tipos_mascotas entidad);
-        Task<Tipos_mascotas> Borrar(Tipos_mascotas entidad);
+        Task<List<Tipo_Mascotas>> Listar();
+        Task<List<Tipo_Mascotas>> Buscar(Tipo_Mascotas entidad, string tipo);
+        Task<Tipo_Mascotas> Guardar(Tipo_Mascotas entidad);
+        Task<Tipo_Mascotas> Modificar(Tipo_Mascotas entidad);
+        Task<Tipo_Mascotas> Borrar(Tipo_Mascotas entidad);
     }
 }

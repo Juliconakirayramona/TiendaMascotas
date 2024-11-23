@@ -4,11 +4,11 @@ using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
 {
-    public class Clientes_mascotasRepositorio : IClientes_mascotasRepositorio
+    public class Tipos_MascotasRepositorio : ITipos_MascotasRepositorio
     {
         private Conexion? conexion = null;
 
-        public Clientes_mascotasRepositorio(Conexion conexion)
+        public Tipos_MascotasRepositorio(Conexion conexion)
         {
             this.conexion = conexion;
         }
@@ -17,26 +17,30 @@ namespace lib_repositorios.Implementaciones
         {
             this.conexion!.StringConnection = string_conexion;
         }
-
-        public List<Clientes_mascotas> Listar()
+        public List<Tipo_Mascotas> Listar()
         {
-            return conexion!.Listar<Clientes_mascotas>();
+            return Buscar(x => x != null);
         }
-        public Clientes_mascotas Guardar(Clientes_mascotas entidad)
+        public List<Tipo_Mascotas> Buscar(Expression<Func<Tipo_Mascotas, bool>> condiciones)
+        {
+            return conexion!.Buscar(condiciones);
+        }
+
+        public Tipo_Mascotas Guardar(Tipo_Mascotas entidad)
         {
             conexion!.Guardar(entidad);
             conexion!.GuardarCambios();
             return entidad;
         }
 
-        public Clientes_mascotas Modificar(Clientes_mascotas entidad)
+        public Tipo_Mascotas Modificar(Tipo_Mascotas entidad)
         {
             conexion!.Modificar(entidad);
             conexion!.GuardarCambios();
             return entidad;
         }
 
-        public Clientes_mascotas Borrar(Clientes_mascotas entidad)
+        public Tipo_Mascotas Borrar(Tipo_Mascotas entidad)
         {
             conexion!.Borrar(entidad);
             conexion!.GuardarCambios();

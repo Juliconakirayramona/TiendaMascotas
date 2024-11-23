@@ -22,7 +22,7 @@ namespace lib_repositorios.Implementaciones
 
         public List<Mascotas> Listar()
         {
-            return conexion!.Listar<Mascotas>();
+            return Buscar(x => x != null);
         }
 
         public List<Mascotas> Buscar(Expression<Func<Mascotas, bool>> condiciones)

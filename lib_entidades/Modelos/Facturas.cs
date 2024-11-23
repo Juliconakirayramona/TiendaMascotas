@@ -15,10 +15,11 @@ namespace lib_entidades
         public int Mascota { get; set; }
         public int Servicio { get; set; }
         public int Pago { get; set; }
-        [NotMapped] public Clientes? _Cliente { get; set; }
-        [NotMapped] public Mascotas? _Mascota { get; set; }
-        [NotMapped] public Servicios? _Servicio { get; set; }
-        [NotMapped] public Metodo_pago? _Pago { get; set; }
+        [ForeignKey("Cliente")] public Clientes? _Cliente { get; set; }
+        [ForeignKey("Mascota")] public Mascotas? _Mascota { get; set; }
+        [ForeignKey("Servicio")] public Servicios? _Servicio { get; set; }
+        [ForeignKey("Pago")] public Metodo_pago? _Pago { get; set; }
+
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Codigo_Factura))

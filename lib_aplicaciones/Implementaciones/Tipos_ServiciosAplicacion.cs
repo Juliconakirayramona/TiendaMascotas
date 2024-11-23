@@ -6,11 +6,11 @@ using lib_entidades.Modelos;
 
 namespace lib_aplicaciones.Implementaciones
 {
-    public class Clientes_serviciosAplicacion : IClientes_serviciosAplicacion
+    public class Tipos_serviciosAplicacion : ITipos_serviciosAplicacion
     {
-        private IClientes_serviciosRepositorio? iRepositorio = null;
+        private ITipos_serviciosRepositorio? iRepositorio = null;
 
-        public Clientes_serviciosAplicacion(IClientes_serviciosRepositorio iRepositorio)
+        public Tipos_serviciosAplicacion(ITipos_serviciosRepositorio iRepositorio)
         {
             this.iRepositorio = iRepositorio;
         }
@@ -20,41 +20,41 @@ namespace lib_aplicaciones.Implementaciones
             this.iRepositorio!.Configurar(string_conexion);
         }
 
-        public Clientes_servicios Borrar(Clientes_servicios entidad)
+        public Tipos_servicios Borrar(Tipos_servicios entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
 
-            if (entidad.ID_Clienteservicio == 0)
+            if (entidad.ID_Tiposervicio == 0)
                 throw new Exception("lbNoSeGuardo");
 
             entidad = iRepositorio!.Borrar(entidad);
             return entidad;
         }
 
-        public Clientes_servicios Guardar(Clientes_servicios entidad)
+        public Tipos_servicios Guardar(Tipos_servicios entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
 
-            if (entidad.ID_Clienteservicio != 0)
+            if (entidad.ID_Tiposervicio != 0)
                 throw new Exception("lbYaSeGuardo");
 
             entidad = iRepositorio!.Guardar(entidad);
             return entidad;
         }
 
-        public List<Clientes_servicios> Listar()
+        public List<Tipos_servicios> Listar()
         {
             return iRepositorio!.Listar();
         }
 
-        public Clientes_servicios Modificar(Clientes_servicios entidad)
+        public Tipos_servicios Modificar(Tipos_servicios entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
 
-            if (entidad.ID_Clienteservicio == 0)
+            if (entidad.ID_Tiposervicio == 0)
                 throw new Exception("lbNoSeGuardo");
 
             entidad = iRepositorio!.Modificar(entidad);

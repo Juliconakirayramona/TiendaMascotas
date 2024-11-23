@@ -6,18 +6,18 @@ using lib_utilidades;
 
 namespace lib_presentaciones.Implementaciones
 {
-    public class Clientes_serviciospresentacion : IClientes_serviciospresentacion
+    public class Tipos_serviciospresentacion : ITipos_serviciospresentacion
     {
         private ITipo_ServiciosComunicacion? iComunicacion = null;
 
-        public Clientes_serviciospresentacion(ITipo_ServiciosComunicacion iComunicacion)
+        public Tipos_serviciospresentacion(ITipo_ServiciosComunicacion iComunicacion)
         {
             this.iComunicacion = iComunicacion;
         }
 
-        public async Task<List<Clientes_servicios>> Listar()
+        public async Task<List<Tipos_servicios>> Listar()
         {
-            var lista = new List<Clientes_servicios>();
+            var lista = new List<Tipos_servicios>();
             var datos = new Dictionary<string, object>();
 
             var respuesta = await iComunicacion!.Listar(datos);
@@ -25,14 +25,14 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Clientes_servicios>>(
+            lista = JsonConversor.ConvertirAObjeto<List<Tipos_servicios>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<List<Clientes_servicios>> Buscar(Clientes_servicios entidad, string tipo)
+        public async Task<List<Tipos_servicios>> Buscar(Tipos_servicios entidad, string tipo)
         {
-            var lista = new List<Clientes_servicios>();
+            var lista = new List<Tipos_servicios>();
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;
             datos["Tipo"] = tipo;
@@ -42,14 +42,14 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Clientes_servicios>>(
+            lista = JsonConversor.ConvertirAObjeto<List<Tipos_servicios>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<Clientes_servicios> Guardar(Clientes_servicios entidad)
+        public async Task<Tipos_servicios> Guardar(Tipos_servicios entidad)
         {
-            if (entidad.ID_Clienteservicio != 0 || !entidad.Validar())
+            if (entidad.ID_Tiposervicio != 0 || !entidad.Validar())
             {
                 throw new Exception("lbFaltaInformacion");
             }
@@ -62,14 +62,14 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Clientes_servicios>(
+            entidad = JsonConversor.ConvertirAObjeto<Tipos_servicios>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Clientes_servicios> Modificar(Clientes_servicios entidad)
+        public async Task<Tipos_servicios> Modificar(Tipos_servicios entidad)
         {
-            if (entidad.ID_Clienteservicio == 0 || !entidad.Validar())
+            if (entidad.ID_Tiposervicio == 0 || !entidad.Validar())
             {
                 throw new Exception("lbFaltaInformacion");
             }
@@ -82,14 +82,14 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Clientes_servicios>(
+            entidad = JsonConversor.ConvertirAObjeto<Tipos_servicios>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Clientes_servicios> Borrar(Clientes_servicios entidad)
+        public async Task<Tipos_servicios> Borrar(Tipos_servicios entidad)
         {
-            if (entidad.ID_Clienteservicio == 0 || !entidad.Validar())
+            if (entidad.ID_Tiposervicio == 0 || !entidad.Validar())
             {
                 throw new Exception("lbFaltaInformacion");
             }
@@ -102,7 +102,7 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Clientes_servicios>(
+            entidad = JsonConversor.ConvertirAObjeto<Tipos_servicios>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }

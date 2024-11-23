@@ -12,11 +12,8 @@ namespace lib_entidades.Modelos
         public string? Genero { get; set; }
         public string? Edad { get; set; }
         public int Dueño { get; set; }
-
-
+        //[NotMapped] public virtual ICollection<Tipos_Mascotas>? Tipos_Mascotas { get; set; }
         [ForeignKey("Dueño")] public Clientes? _Dueño { get; set; }
-
-
 
         public bool Validar()
         {

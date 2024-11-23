@@ -6,18 +6,18 @@ using lib_utilidades;
 
 namespace lib_presentaciones.Implementaciones
 {
-    public class Tipos_mascotaspresentacion : ITipos_mascotaspresentacion
+    public class Tipos_Mascotaspresentacion : ITipos_Mascotaspresentacion
     {
         private ITipo_MascotasComunicacion? iComunicacion = null;
 
-        public Tipos_mascotaspresentacion(ITipo_MascotasComunicacion iComunicacion)
+        public Tipos_Mascotaspresentacion(ITipo_MascotasComunicacion iComunicacion)
         {
             this.iComunicacion = iComunicacion;
         }
 
-        public async Task<List<Tipos_mascotas>> Listar()
+        public async Task<List<Tipo_Mascotas>> Listar()
         {
-            var lista = new List<Tipos_mascotas>();
+            var lista = new List<Tipo_Mascotas>();
             var datos = new Dictionary<string, object>();
 
             var respuesta = await iComunicacion!.Listar(datos);
@@ -25,14 +25,14 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Tipos_mascotas>>(
+            lista = JsonConversor.ConvertirAObjeto<List<Tipo_Mascotas>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<List<Tipos_mascotas>> Buscar(Tipos_mascotas entidad, string tipo)
+        public async Task<List<Tipo_Mascotas>> Buscar(Tipo_Mascotas entidad, string tipo)
         {
-            var lista = new List<Tipos_mascotas>();
+            var lista = new List<Tipo_Mascotas>();
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;
             datos["Tipo"] = tipo;
@@ -42,12 +42,12 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Tipos_mascotas>>(
+            lista = JsonConversor.ConvertirAObjeto<List<Tipo_Mascotas>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<Tipos_mascotas> Guardar(Tipos_mascotas entidad)
+        public async Task<Tipo_Mascotas> Guardar(Tipo_Mascotas entidad)
         {
             if (entidad.ID_TipoMascota != 0 || !entidad.Validar())
             {
@@ -62,12 +62,12 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Tipos_mascotas>(
+            entidad = JsonConversor.ConvertirAObjeto<Tipo_Mascotas>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Tipos_mascotas> Modificar(Tipos_mascotas entidad)
+        public async Task<Tipo_Mascotas> Modificar(Tipo_Mascotas entidad)
         {
             if (entidad.ID_TipoMascota == 0 || !entidad.Validar())
             {
@@ -82,12 +82,12 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Tipos_mascotas>(
+            entidad = JsonConversor.ConvertirAObjeto<Tipo_Mascotas>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Tipos_mascotas> Borrar(Tipos_mascotas entidad)
+        public async Task<Tipo_Mascotas> Borrar(Tipo_Mascotas entidad)
         {
             if (entidad.ID_TipoMascota == 0 || !entidad.Validar())
             {
@@ -102,7 +102,7 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Tipos_mascotas>(
+            entidad = JsonConversor.ConvertirAObjeto<Tipo_Mascotas>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }

@@ -6,11 +6,11 @@ using lib_entidades.Modelos;
 
 namespace lib_aplicaciones.Implementaciones
 {
-    public class Tipos_mascotasAplicacion : ITipos_mascotasAplicacion
+    public class Tipos_MascotasAplicacion : ITipos_MascotasAplicacion
     {
-        private ITipos_mascotasRepositorio? iRepositorio = null;
+        private ITipos_MascotasRepositorio? iRepositorio = null;
 
-        public Tipos_mascotasAplicacion(ITipos_mascotasRepositorio iRepositorio)
+        public Tipos_MascotasAplicacion(ITipos_MascotasRepositorio iRepositorio)
         {
             this.iRepositorio = iRepositorio;
         }
@@ -20,7 +20,7 @@ namespace lib_aplicaciones.Implementaciones
             this.iRepositorio!.Configurar(string_conexion);
         }
 
-        public Tipos_mascotas Borrar(Tipos_mascotas entidad)
+        public Tipo_Mascotas Borrar(Tipo_Mascotas entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
@@ -32,7 +32,7 @@ namespace lib_aplicaciones.Implementaciones
             return entidad;
         }
 
-        public Tipos_mascotas Guardar(Tipos_mascotas entidad)
+        public Tipo_Mascotas Guardar(Tipo_Mascotas entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");
@@ -44,12 +44,25 @@ namespace lib_aplicaciones.Implementaciones
             return entidad;
         }
 
-        public List<Tipos_mascotas> Listar()
+        public List<Tipo_Mascotas> Listar()
         {
             return iRepositorio!.Listar();
         }
+        public List<Tipo_Mascotas> Buscar(Tipo_Mascotas entidad, string tipo)
+        {
+            Expression<Func<Tipo_Mascotas, bool>>? condiciones = null;
+            switch (tipo.ToUpper())
+            {
+                case "CODIGO FACTURA": condiciones = x => x.TipoDeMascota!.Contains(entidad.TipoDeMascota!); break;
+                case "COMPLEJA":
+                    condiciones =
+                        x => x.TipoDeMascota!.Contains(entidad.TipoDeMascota!); break;
+                default: condiciones = x => x.ID_TipoMascota == entidad.ID_TipoMascota; break;
+            }
+            return this.iRepositorio!.Buscar(condiciones);
+        }
 
-        public Tipos_mascotas Modificar(Tipos_mascotas entidad)
+        public Tipo_Mascotas Modificar(Tipo_Mascotas entidad)
         {
             if (entidad == null || !entidad.Validar())
                 throw new Exception("lbFaltaInformacion");

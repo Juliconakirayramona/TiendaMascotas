@@ -8,7 +8,6 @@ namespace lib_repositorios.Interfaces
     {
         void Configurar(string string_conexion);
         List<Mascotas> Listar();
-
         List<Mascotas> Buscar(Expression<Func<Mascotas, bool>> condiciones);
         Mascotas Guardar(Mascotas entidad);
         Mascotas Modificar(Mascotas entidad);

@@ -9,11 +9,7 @@ namespace lib_entidades.Modelos
         public string? Cedula { get; set; }
         public string? Nombre { get; set; }
 
-
         [NotMapped] public virtual ICollection<Mascotas>? Mascotas { get; set; }
-
-
-        
 
         public bool Validar()
         {

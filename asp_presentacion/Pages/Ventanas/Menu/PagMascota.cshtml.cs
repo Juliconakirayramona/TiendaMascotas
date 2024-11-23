@@ -1,22 +1,22 @@
-using lib_entidades;
+
 using lib_entidades.Modelos;
 using lib_presentaciones.Interfaces;
 using lib_utilidades;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc;
 
-namespace asp_presentacion.Pages.Ventanas
+namespace asp_presentacion.Pages.Ventanas.Menu
 {
-    public class ClientesModel : PageModel
+    public class MascotasModel : PageModel
     {
-        private IClientespresentacion? iPresentacion = null;
+        private IMascotaspresentacion? iPresentacion = null;
 
-        public ClientesModel(IClientespresentacion iPresentacion)
+        public MascotasModel(IMascotaspresentacion iPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
-                Filtro = new Clientes();
+                Filtro = new Mascotas();
             }
             catch (Exception ex)
             {
@@ -25,22 +25,23 @@ namespace asp_presentacion.Pages.Ventanas
         }
 
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
-        [BindProperty] public Clientes? Actual { get; set; }
-        [BindProperty] public Clientes? Filtro { get; set; }
-        [BindProperty] public List<Clientes>? Lista { get; set; }
+        [BindProperty] public Mascotas? Actual { get; set; }
+        [BindProperty] public Mascotas? Filtro { get; set; }
+        [BindProperty] public List<Mascotas>? Lista { get; set; }
 
-        public virtual void OnGet() { OnPostBtRefrescar(); }
+        public async Task OnGet()
+        {
+            await OnPostBtRefrescar();
+        }
 
-        public void OnPostBtRefrescar()
+        public async Task OnPostBtRefrescar()
         {
             try
             {
                 Filtro!.Nombre = Filtro!.Nombre ?? "";
 
                 Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
-                task.Wait();
-                Lista = task.Result;
+                Lista = await this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
                 Actual = null;
             }
             catch (Exception ex)
@@ -49,15 +50,13 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
-        
-
-        public virtual void OnPostBtModificar(string data)
+        public async Task OnPostBtModificar(string data)
         {
             try
             {
-                OnPostBtRefrescar();
+                await OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
-                Actual = Lista!.FirstOrDefault(x => x.ID_Persona.ToString() == data);
+                Actual = Lista!.FirstOrDefault(x => x.ID_Mascota.ToString() == data);
             }
             catch (Exception ex)
             {
@@ -65,20 +64,33 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
-        public virtual void OnPostBtGuardar()
+
+        public async Task OnPostBtNuevo()
+        {
+            try
+            {
+                Accion = Enumerables.Ventanas.Nuevo; 
+                Actual = new Mascotas(); 
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public async Task OnPostBtGuardar()
         {
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                Task<Clientes>? task = null;
-                if (Actual!.ID_Persona == 0)
+                Task<Mascotas>? task = null;
+                if (Actual!.ID_Mascota == 0 )
                     task = this.iPresentacion!.Guardar(Actual!);
                 else
                     task = this.iPresentacion!.Modificar(Actual!);
-                task.Wait();
-                Actual = task.Result;
+                Actual = await task;
                 Accion = Enumerables.Ventanas.Listas;
-                OnPostBtRefrescar();
+                await OnPostBtRefrescar();
             }
             catch (Exception ex)
             {
@@ -86,13 +98,13 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
-        public virtual void OnPostBtBorrarVal(string data)
+        public async Task OnPostBtBorrarVal(string data)
         {
             try
             {
-                OnPostBtRefrescar();
+                await OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Borrar;
-                Actual = Lista!.FirstOrDefault(x => x.ID_Persona.ToString() == data);
+                Actual = Lista!.FirstOrDefault(x => x.ID_Mascota.ToString() == data);
             }
             catch (Exception ex)
             {
@@ -100,13 +112,13 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
-        public virtual void OnPostBtBorrar()
+        public async Task OnPostBtBorrar()
         {
             try
             {
                 var task = this.iPresentacion!.Borrar(Actual!);
-                Actual = task.Result;
-                OnPostBtRefrescar();
+                Actual = await task;
+                await OnPostBtRefrescar();
             }
             catch (Exception ex)
             {
@@ -114,12 +126,12 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
-        public void OnPostBtCancelar()
+        public async Task OnPostBtCancelar()
         {
             try
             {
                 Accion = Enumerables.Ventanas.Listas;
-                OnPostBtRefrescar();
+                await OnPostBtRefrescar();
             }
             catch (Exception ex)
             {
@@ -127,12 +139,12 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
-        public void OnPostBtCerrar()
+        public async Task OnPostBtCerrar()
         {
             try
             {
                 if (Accion == Enumerables.Ventanas.Listas)
-                    OnPostBtRefrescar();
+                    await OnPostBtRefrescar();
             }
             catch (Exception ex)
             {
@@ -140,4 +152,5 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
     }
+
 }

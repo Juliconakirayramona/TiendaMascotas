@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "owrlWew8CMI=",
+  "dgSpecHash": "k1bCemO9S8U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Juli G\\OneDrive\\Escritorio\\TiendaMascotas\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
+  "projectFilePath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Juli G\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Jose Odair\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

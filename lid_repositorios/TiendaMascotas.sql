@@ -57,10 +57,11 @@ CREATE TABLE ModuloRoles (
 CONSTRAINT [PK_idmodulo] PRIMARY KEY CLUSTERED ([ID_Modulo]),
 );
 
-CREATE TABLE Auditorias (
+CREATE TABLE Auditoria (
 [ID_Auditoria] INT NOT NULL IDENTITY (1,1),
-
-CONSTRAINT [PK_idauditoria] PRIMARY KEY CLUSTERED ([ID_Auditoria]),
+[Tabla] NVARCHAR (50) NOT NULL,
+[Referencia] INT  NOT NULL,
+[Accion] NVARCHAR (50) NOT NULL
 );
 
 

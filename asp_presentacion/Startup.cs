@@ -20,12 +20,18 @@ namespace asp_presentacion
             services.AddScoped<IClientesComunicacion, ClientesComunicacion>();
 
             services.AddScoped<IMascotasComunicacion, MascotasComunicacion>();
+
+            services.AddScoped<ITipo_MascotasComunicacion, Tipo_MascotasComunicacion>();
+
+
             // Presentaciones
             services.AddScoped<IClientespresentacion, Clientespresentacion>();
 
             services.AddScoped<IMascotaspresentacion, Mascotaspresentacion>();
 
+            services.AddScoped<ITipos_Mascotaspresentacion, Tipos_Mascotaspresentacion>();
 
+            
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddRazorPages();

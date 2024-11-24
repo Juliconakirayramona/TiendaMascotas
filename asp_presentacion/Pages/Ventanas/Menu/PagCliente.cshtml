@@ -1,7 +1,7 @@
 ﻿@page
 @model asp_presentacion.Pages.Ventanas.Menu.MenuModel
 @{
-    ViewData["Titulo"] = "Clientes";
+    ViewData["Titulo"] = "Mascotas";
 }
 <center>
     <div>
@@ -113,7 +113,7 @@
                          "../../Emergentes/Mensajes.cshtml")
                 ;
             }
-            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Nuevo || Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Nuevo )
             {
                 <div class="containers_vn panel panel-default">
                     <h3>INGRESA CLIENTE</h3>

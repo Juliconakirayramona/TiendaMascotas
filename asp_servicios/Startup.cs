@@ -3,7 +3,7 @@ using lib_aplicaciones.Implementaciones;
 using lib_aplicaciones.Interfaces;
 using lib_repositorios;
 using lib_repositorios.Implementaciones;
-using lib_repositorios.Interfaces;
+using lid_repositorios.Interfaces;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 
 namespace asp_servicios
@@ -23,7 +23,7 @@ namespace asp_servicios
             services.Configure<IISServerOptions>(x => { x.AllowSynchronousIO = true; });
             services.AddControllers();
             services.AddEndpointsApiExplorer();
-            
+
             //services.AddSwaggerGen();
             services.AddScoped<Conexion, Conexion>();
             // Repositorios
@@ -31,10 +31,17 @@ namespace asp_servicios
             services.AddScoped<IClientesRepositorio, ClientesRepositorio>();
             services.AddScoped<ITipos_MascotasRepositorio, Tipos_MascotasRepositorio>();
             services.AddScoped<IAuditoriasRepositorio, AuditoriasRepositorio>();
+            services.AddScoped<IServiciosRepositorio, ServiciosRepositorio>();
+            services.AddScoped<ITipos_serviciosRepositorio, Tipos_serviciosRepositorio>();
+            services.AddScoped<IFacturasRepositorio, FacturasRepositorio>();
             // Aplicaciones
             services.AddScoped<IMascotasAplicacion, MascotasAplicacion>();
             services.AddScoped<IClientesAplicacion, ClientesAplicacion>();
             services.AddScoped<ITipos_MascotasAplicacion, Tipos_MascotasAplicacion>();
+            services.AddScoped<IServiciosAplicacion, ServiciosAplicacion>();
+            services.AddScoped<ITipos_serviciosAplicacion, Tipos_serviciosAplicacion>();
+            services.AddScoped<IFacturasAplicacion, FacturasAplicacion>();
+
             // Controladores
             services.AddScoped<TokenController, TokenController>();
 

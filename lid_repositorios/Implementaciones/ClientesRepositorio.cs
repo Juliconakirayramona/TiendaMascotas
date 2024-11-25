@@ -1,6 +1,6 @@
 ﻿using lib_entidades;
 using lib_entidades.Modelos;
-using lib_repositorios.Interfaces;
+using lid_repositorios.Interfaces;
 using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones

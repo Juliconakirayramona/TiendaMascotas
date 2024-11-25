@@ -10,10 +10,12 @@ namespace lib_entidades.Modelos
         public decimal Precio { get; set; }
         public bool Estado { get; set; }
         public int Mascota { get; set; }
-        [NotMapped] public Mascotas? _Especie { get; set; }
+        [NotMapped] public virtual ICollection<Facturas>? Facturas { get; set; }
+        [ForeignKey("Mascota")] public Mascotas? _Mascota { get; set; }
+
         public bool Validar()
         {
-            if (Precio < 0)
+            if ((Precio) < 0.0m)
                 return false;
             return true;
         }

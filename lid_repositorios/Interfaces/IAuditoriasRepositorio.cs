@@ -1,7 +1,7 @@
 ﻿using lib_entidades.Modelos;
 using System.Linq.Expressions;
 
-namespace lib_repositorios.Interfaces
+namespace lid_repositorios.Interfaces
 {
     public interface IAuditoriasRepositorio
     {
@@ -13,6 +13,6 @@ namespace lib_repositorios.Interfaces
         Auditorias Borrar(Auditorias entidad);
     }
 
-   
+
 
 }

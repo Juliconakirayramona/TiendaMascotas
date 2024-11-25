@@ -9,7 +9,7 @@ namespace lib_entidades.Modelos
         [Key] public int ID_Tiposervicio { get; set; }
         public string? Tipo_Servicio { get; set; }
         public int Servicio { get; set; }
-        [NotMapped] public Servicios? _Servicio { get; set; }
+        [ForeignKey("Servicio")] public Servicios? _Servicio { get; set; }
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Tipo_Servicio))

@@ -1,7 +1,7 @@
 ﻿using lib_entidades.Modelos;
 using lib_repositorios;
 using lib_repositorios.Implementaciones;
-using lib_repositorios.Interfaces;
+using lid_repositorios.Interfaces;
 
 namespace mst_pruebas.Repositorios
 {

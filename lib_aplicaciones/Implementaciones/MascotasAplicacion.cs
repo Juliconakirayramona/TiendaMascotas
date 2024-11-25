@@ -1,7 +1,7 @@
 ﻿using lib_aplicaciones.Interfaces;
-using lib_repositorios.Interfaces;
 using System.Linq.Expressions;
 using lib_entidades.Modelos;
+using lid_repositorios.Interfaces;
 
 namespace lib_aplicaciones.Implementaciones
 {

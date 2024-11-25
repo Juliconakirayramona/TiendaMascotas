@@ -1,6 +1,6 @@
 ﻿using lib_entidades;
 using lib_entidades.Modelos;
-using lib_repositorios.Interfaces;
+using lid_repositorios.Interfaces;
 using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
@@ -21,7 +21,7 @@ namespace lib_repositorios.Implementaciones
 
         public List<Facturas> Listar()
         {
-            return conexion!.Listar<Facturas>();
+            return Buscar(x => x != null);
         }
 
         public List<Facturas> Buscar(Expression<Func<Facturas, bool>> condiciones)

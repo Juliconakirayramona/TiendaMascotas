@@ -1,8 +1,8 @@
 ﻿using lib_entidades;
 using lib_aplicaciones.Interfaces;
-using lib_repositorios.Interfaces;
 using System.Linq.Expressions;
 using lib_entidades.Modelos;
+using lid_repositorios.Interfaces;
 
 namespace lib_aplicaciones.Implementaciones
 {
@@ -47,6 +47,15 @@ namespace lib_aplicaciones.Implementaciones
         public List<Servicios> Listar()
         {
             return iRepositorio!.Listar();
+        }
+        public List<Servicios> Buscar(Servicios entidad, string tipo)
+        {
+            Expression<Func<Servicios, bool>>? condiciones = null;
+            switch (tipo.ToUpper())
+            {
+                default: condiciones = x => x.ID_Servicio == entidad.ID_Servicio; break;
+            }
+            return this.iRepositorio!.Buscar(condiciones);
         }
         public Servicios Modificar(Servicios entidad)
         {

@@ -1,4 +1,5 @@
-﻿using lib_entidades.Modelos;
+﻿using lib_entidades;
+using lib_entidades.Modelos;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -17,6 +18,9 @@ namespace lib_repositorios
         protected DbSet<Clientes>? Clientes { get; set; }
         protected DbSet<Mascotas>? Mascotas { get; set; }
         protected DbSet<Tipo_Mascotas> Tipo_Mascotas { get; set; }
+        protected DbSet<Servicios> Servicios { get; set; }
+        protected DbSet<Tipos_servicios> Tipo_Servicios { get; set; }
+        protected DbSet<Facturas> Facturas { get; set; }
 
         public virtual DbSet<T> ObtenerSet<T>() where T : class, new()
         {
@@ -45,6 +49,31 @@ namespace lib_repositorios
                 .Include(x => x._Mascota)
                 .Where(condiciones)
                 .ToList();
+        }
+        public virtual List<Servicios> Buscar(Expression<Func<Servicios, bool>> condiciones)
+        {
+            return this.Set<Servicios>()
+                .Include(x => x._Mascota)
+                .Where(condiciones)
+                .ToList();
+        }
+        public virtual List<Tipos_servicios> Buscar(Expression<Func<Tipos_servicios, bool>> condiciones)
+        {
+            return this.Set<Tipos_servicios>()
+                .Include(x => x._Servicio)
+                .Where(condiciones)
+                .ToList();
+        }
+        public virtual List<Facturas> Buscar(Expression<Func<Facturas, bool>> condiciones)
+        {
+            return this.Set<Facturas>()
+                .Include(x => x._Cliente)
+                .Include(x => x._Mascota)
+                .Include(x => x._Servicio)
+                .Include(x => x._Pago)
+                .Where(condiciones)
+                .ToList();
+
         }
 
         public virtual bool Existe<T>(Expression<Func<T, bool>> condiciones) where T : class, new()

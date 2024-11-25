@@ -1,5 +1,5 @@
 ﻿using lib_entidades.Modelos;
-using lib_repositorios.Interfaces;
+using lid_repositorios.Interfaces;
 using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
@@ -20,8 +20,13 @@ namespace lib_repositorios.Implementaciones
 
         public List<Tipos_servicios> Listar()
         {
-            return conexion!.Listar<Tipos_servicios>();
+            return Buscar(x => x != null);
         }
+        public List<Tipos_servicios> Buscar(Expression<Func<Tipos_servicios, bool>> condiciones)
+        {
+            return conexion!.Buscar(condiciones);
+        }
+
         public Tipos_servicios Guardar(Tipos_servicios entidad)
         {
             conexion!.Guardar(entidad);

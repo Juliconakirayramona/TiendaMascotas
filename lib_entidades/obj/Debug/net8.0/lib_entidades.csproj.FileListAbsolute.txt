@@ -49,3 +49,16 @@ C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas\TiendaMascotas\lib_entidades\
 C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas\TiendaMascotas\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
 C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
 C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas\TiendaMascotas\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\bin\Debug\net8.0\lib_entidades.deps.json
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.AssemblyReference.cache
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfoInputs.cache
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfo.cs
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.CoreCompileInputs.cache
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.sourcelink.json
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.dll
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
+C:\Users\Juli G\OneDrive\Escritorio\TiendaMascotas1\TiendaMascotas\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll

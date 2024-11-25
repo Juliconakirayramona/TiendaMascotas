@@ -10,16 +10,17 @@ namespace lib_entidades.Modelos
         public string? Nombre { get; set; }
 
         [NotMapped] public virtual ICollection<Mascotas>? Mascotas { get; set; }
+        [NotMapped] public virtual ICollection<Facturas>? Facturas { get; set; }
 
         public bool Validar()
         {
             if (string.IsNullOrEmpty(Cedula) ||
                 string.IsNullOrEmpty(Nombre))
-               
+
                 return false;
             return true;
         }
 
     }
-    
+
 }

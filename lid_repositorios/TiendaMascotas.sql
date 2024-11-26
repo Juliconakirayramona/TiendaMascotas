@@ -57,9 +57,13 @@ CONSTRAINT [FK_Cliente_Clientes] FOREIGN KEY ([Clientes]) REFERENCES Clientes ([
 
 
 CREATE TABLE ModuloRoles (
-[ID_Modulo] INT NOT NULL IDENTITY (1,1),
+[ID_ModuloRol] INT NOT NULL IDENTITY (1,1),
+[ID_Rol] INT NOT NULL,
+[Permiso] NVARCHAR NOT NULL,
+
 
 CONSTRAINT [PK_idmodulo] PRIMARY KEY CLUSTERED ([ID_Modulo]),
+CONSTRAINT [FK_Usuario_Usuarios] FOREIGN KEY ([Usuarios]) REFERENCES Usuarios ([ID_Usuario])
 );
 
 CREATE TABLE Auditoria (

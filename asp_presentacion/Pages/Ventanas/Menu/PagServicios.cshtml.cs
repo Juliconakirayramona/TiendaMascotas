@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace asp_presentacion.Pages.Ventanas.Menu
 {
-    public class MascotasModel : PageModel
+    public class ServiciosModel : PageModel
     {
-        private IMascotaspresentacion? iPresentacion = null;
+        private IServiciospresentacion? iPresentacion = null;
 
-        public MascotasModel(IMascotaspresentacion iPresentacion)
+        public ServiciosModel(IServiciospresentacion iPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
-                Filtro = new Mascotas();
+                Filtro = new Servicios();
             }
             catch (Exception ex)
             {
@@ -24,9 +24,9 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         }
 
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
-        [BindProperty] public Mascotas? Actual { get; set; }
-        [BindProperty] public Mascotas? Filtro { get; set; }
-        [BindProperty] public List<Mascotas>? Lista { get; set; }
+        [BindProperty] public Servicios? Actual { get; set; }
+        [BindProperty] public Servicios? Filtro { get; set; }
+        [BindProperty] public List<Servicios>? Lista { get; set; }
 
         public async Task OnGet()
         {
@@ -37,10 +37,8 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         {
             try
             {
-                Filtro!.Nombre = Filtro!.Nombre ?? "";
-
-                Accion = Enumerables.Ventanas.Listas;
-                Lista = await this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
+                Filtro!.Precio = Filtro!.Precio < 0 ? 0 : Filtro!.Precio;  // Aseguramos que el precio no sea negativo
+                Lista = await this.iPresentacion!.Buscar(Filtro!, "NOMBRE"); // Si "NOMBRE" es un campo relevante en 'Servicios', puedes cambiarlo a otro como "Precio"
                 Actual = null;
             }
             catch (Exception ex)
@@ -54,8 +52,7 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             try
             {
                 await OnPostBtRefrescar();
-                Accion = Enumerables.Ventanas.Editar;
-                Actual = Lista!.FirstOrDefault(x => x.ID_Mascota.ToString() == data);
+                Actual = Lista!.FirstOrDefault(x => x.ID_Servicio.ToString() == data);
             }
             catch (Exception ex)
             {
@@ -63,13 +60,11 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             }
         }
 
-
         public async Task OnPostBtNuevo()
         {
             try
             {
-                Accion = Enumerables.Ventanas.Nuevo; 
-                Actual = new Mascotas(); 
+                Actual = new Servicios();
             }
             catch (Exception ex)
             {
@@ -81,14 +76,12 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         {
             try
             {
-                Accion = Enumerables.Ventanas.Editar;
-                Task<Mascotas>? task = null;
-                if (Actual!.ID_Mascota == 0 )
+                Task<Servicios>? task = null;
+                if (Actual!.ID_Servicio == 0) // ID_Servicio es 0 cuando es nuevo
                     task = this.iPresentacion!.Guardar(Actual!);
                 else
                     task = this.iPresentacion!.Modificar(Actual!);
                 Actual = await task;
-                Accion = Enumerables.Ventanas.Listas;
                 await OnPostBtRefrescar();
             }
             catch (Exception ex)
@@ -102,8 +95,7 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             try
             {
                 await OnPostBtRefrescar();
-                Accion = Enumerables.Ventanas.Borrar;
-                Actual = Lista!.FirstOrDefault(x => x.ID_Mascota.ToString() == data);
+                Actual = Lista!.FirstOrDefault(x => x.ID_Servicio.ToString() == data);
             }
             catch (Exception ex)
             {
@@ -129,7 +121,6 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         {
             try
             {
-                Accion = Enumerables.Ventanas.Listas;
                 await OnPostBtRefrescar();
             }
             catch (Exception ex)
@@ -142,8 +133,7 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         {
             try
             {
-                if (Accion == Enumerables.Ventanas.Listas)
-                    await OnPostBtRefrescar();
+                await OnPostBtRefrescar();
             }
             catch (Exception ex)
             {
@@ -151,5 +141,4 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             }
         }
     }
-
 }

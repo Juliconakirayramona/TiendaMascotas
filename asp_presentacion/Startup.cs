@@ -19,13 +19,19 @@ namespace asp_presentacion
             // Comunicaciones
             services.AddScoped<IClientesComunicacion, ClientesComunicacion>();
 
+            services.AddScoped<IServiciosComunicacion, ServiciosComunicacion>();
+
             services.AddScoped<IMascotasComunicacion, MascotasComunicacion>();
 
-            services.AddScoped<ITipo_MascotasComunicacion, Tipo_MascotasComunicacion>();
+            services.AddScoped<ITipo_MascotasComunicacion, Tipo_MascotaComunicacion>();
+
 
 
             // Presentaciones
             services.AddScoped<IClientespresentacion, Clientespresentacion>();
+
+            services.AddScoped<IServiciospresentacion, Serviciospresentacion>();
+
 
             services.AddScoped<IMascotaspresentacion, Mascotaspresentacion>();
 
@@ -48,9 +54,9 @@ namespace asp_presentacion
                 app.UseExceptionHandler("/Error");
             }
             app.UseStaticFiles();
-            app.UseRouting();
             app.UseAuthorization();
             app.MapRazorPages();
+            app.UseRouting();
             app.UseSession();
             app.Run();
         }

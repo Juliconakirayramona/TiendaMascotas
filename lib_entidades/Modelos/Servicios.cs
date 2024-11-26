@@ -15,7 +15,7 @@ namespace lib_entidades.Modelos
 
         public bool Validar()
         {
-            if ((Precio) < 0.0m)
+            if ((Precio) < 0.0m || Mascota <=0)
                 return false;
             return true;
         }

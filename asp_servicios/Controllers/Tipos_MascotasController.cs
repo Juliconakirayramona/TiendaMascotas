@@ -22,6 +22,7 @@ namespace asp_Tipos_Mascotas.Controllers
             this.tokenController = tokenController;
         }
 
+
         private Dictionary<string, object> ObtenerDatos()
         {
             var respuesta = new Dictionary<string, object>();
@@ -66,7 +67,36 @@ namespace asp_Tipos_Mascotas.Controllers
             }
         }
 
-        
+        [HttpPost]
+        public string Buscar()
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = ObtenerDatos();
+                if (!tokenController!.Validate(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+
+                var entidad = JsonConversor.ConvertirAObjeto<Tipo_Mascotas>(
+                    JsonConversor.ConvertirAString(datos["Entidad"]));
+                var tipo = datos["Tipo"].ToString();
+
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
+                respuesta["Entidades"] = this.iAplicacion!.Buscar(entidad, tipo);
+
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+        }
 
         [HttpPost]
         public string Guardar()

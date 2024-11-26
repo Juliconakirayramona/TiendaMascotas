@@ -12,7 +12,8 @@ namespace lib_entidades.Modelos
         [ForeignKey("Mascota")] public Mascotas? _Mascota { get; set; }
         public bool Validar()
         {
-            if (string.IsNullOrEmpty(TipoDeMascota))
+            if (string.IsNullOrEmpty(TipoDeMascota) ||
+                    Mascota <= 0)
                 return false;
             return true;
         }

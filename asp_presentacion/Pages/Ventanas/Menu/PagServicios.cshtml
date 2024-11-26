@@ -1,7 +1,7 @@
 ﻿@page
-@model asp_presentacion.Pages.Ventanas.Menu.MascotasModel
+@model asp_presentacion.Pages.Ventanas.Menu.ServiciosModel
 @{
-    ViewData["Titulo"] = "Mascotas";
+    ViewData["Titulo"] = "Servicios";
 }
 <center>
     <div>
@@ -10,7 +10,7 @@
             @Html.AntiForgeryToken()
 
             <div align="left">
-                <h3>Mascotas</h3>
+                <h3>Servicios</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -36,79 +36,52 @@
                        disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
             </div>
 
-
             @if (Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.ID_Mascota" />
+                       asp-for="@Model.Actual!.ID_Servicio" />
             }
+
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.ID_Mascota " />
+                       asp-for="@Model.Actual!.ID_Servicio" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Nombre" />
+                       asp-for="@Model.Actual!.Precio" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Cod_Mascota" />
-                           
-                
-                
+                       asp-for="@Model.Actual!.Estado" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Genero" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Edad" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Dueño" />
-
-
+                       asp-for="@Model.Actual!.Mascota" />
             }
-
-
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>EDITAR MASCOTA</h3>
+                    <h3>EDITAR SERVICIO</h3>
                     <div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">ID_Mascota</label>
+                            <label class="col-lg-4 control-label">ID_Servicio</label>
                             <div class="col-lg-6">
-                                <input id="nmID_Mascota" class="cts_forms form-control" asp-for="@Model.Actual!.ID_Mascota" />
+                                <input id="nmID_Servicio" class="cts_forms form-control" asp-for="@Model.Actual!.ID_Servicio" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">Código Mascota</label>
+                            <label class="col-lg-4 control-label">Precio</label>
                             <div class="col-lg-6">
-                                <input id="nmCod_Mascota" class="cts_forms form-control" asp-for="@Model.Actual!.Cod_Mascota" />
+                                <input id="nmPrecio" class="cts_forms form-control" asp-for="@Model.Actual!.Precio" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">Nombre</label>
+                            <label class="col-lg-4 control-label">Estado</label>
                             <div class="col-lg-6">
-                                <input id="nmNombre" class="cts_forms form-control" asp-for="@Model.Actual!.Nombre" />
+                                <input id="nmEstado" class="cts_forms form-control" asp-for="@Model.Actual!.Estado" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">Género</label>
+                            <label class="col-lg-4 control-label">Mascota ID</label>
                             <div class="col-lg-6">
-                                <input id="nmGenero" class="cts_forms form-control" asp-for="@Model.Actual!.Genero" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">Edad</label>
-                            <div class="col-lg-6">
-                                <input id="nmEdad" 
-                                    class="cts_forms form-control" 
-                                    asp-for="@Model.Actual!.Edad" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">Dueño</label>
-                            <div class="col-lg-6">
-                                <input id="nmDueño" 
-                                class="cts_forms form-control" 
-                                asp-for="@Model.Actual!.Dueño" />
+                                <input id="nmMascota" class="cts_forms form-control" asp-for="@Model.Actual!.Mascota" />
                             </div>
                         </div>
                     </div>
@@ -127,55 +100,24 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Nuevo)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>INGRESA MASCOTA</h3>
+                    <h3>INGRESA SERVICIO</h3>
                     <div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">Código Mascota</label>
-                            <div 
-                                class="col-lg-6">
-                                <input 
-                                    id="nmCod_Mascota" 
-                                    class="cts_forms form-control" 
-                                    asp-for="@Model.Actual!.Cod_Mascota" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">Nombre</label>
+                            <label class="col-lg-4 control-label">Precio</label>
                             <div class="col-lg-6">
-                                <input 
-                                    id="nmNombre" 
-                                    class="cts_forms form-control" 
-                                    asp-for="@Model.Actual!.Nombre" />
+                                <input id="nmPrecio" class="cts_forms form-control" asp-for="@Model.Actual!.Precio" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">Género</label>
+                            <label class="col-lg-4 control-label">Estado</label>
                             <div class="col-lg-6">
-                                <input 
-                                    id="nmGenero" 
-                                    class="cts_forms form-control"
-                                    asp-for="@Model.Actual!.Genero" />
+                                <input id="nmEstado" class="cts_forms form-control" asp-for="@Model.Actual!.Estado" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">Edad</label>
+                            <label class="col-lg-4 control-label">Mascota ID</label>
                             <div class="col-lg-6">
-                                <input
-                                    id="nmEdad" 
-                                    class="cts_forms form-control"  
-                                    asp-for="@Model.Actual!.Edad" />
-                                    
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label 
-                                class="col-lg-4 control-label">Dueño</label>
-                            <div 
-                                class="col-lg-6">
-                                <input 
-                                    id="nmDueño" 
-                                    class="cts_forms form-control"
-                                    asp-for="@Model.Actual!.Dueño" />
+                                <input id="nmMascota" class="cts_forms form-control" asp-for="@Model.Actual!.Mascota" />
                             </div>
                         </div>
                     </div>
@@ -192,10 +134,10 @@
                             </h2>
 
                             <h4 align="left">
-                                Desea borrar la entidad?
+                                ¿Desea borrar el servicio?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.Nombre
+                                @Model.Actual!.ID_Servicio
                             </h6>
                             <br />
                             <br />
@@ -215,29 +157,19 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
-                <input id="flNombre" 
-                    class="cts_forms form-control"
-                    asp-for="@Model.Filtro!.Nombre"
-                    placeholder="Nombre" />
+                <input id="flPrecio"
+                       class="cts_forms form-control"
+                       asp-for="@Model.Filtro!.Precio"
+                       placeholder="Precio" />
                 <br />
 
                 <div class="containers_vn panel panel-default">
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
-
-                            <th class="cl_hidden">ID_Mascota</th>
-
-                            <th>Código Mascota</th>
-
-                            <th>Nombre</th>
-
-
-                            <th>Género</th>
-
-                            <th>Edad</th>
-
-                            <th>Dueño</th>
-
+                            <th class="cl_hidden">ID_Servicio</th>
+                            <th>Precio</th>
+                            <th>Estado</th>
+                            <th>Mascota ID</th>
                             <th class="cl_actions">Acción</th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
@@ -245,25 +177,21 @@
                             @foreach (var elemento in Model.Lista)
                             {
                                 <tr>
-
-                                    <td class="cl_hidden">@elemento.ID_Mascota</td>
-                                    <td>@elemento.Cod_Mascota</td>
-                                    <td>@elemento.Nombre</td>
-                                    <td>@elemento.Genero</td>
-                                    <td>@elemento.Edad</td>
-                                    <td>@elemento.Dueño</td>
-
+                                    <td class="cl_hidden">@elemento.ID_Servicio</td>
+                                    <td>@elemento.Precio</td>
+                                    <td>@elemento.Estado</td>
+                                    <td>@elemento.Mascota</td>
                                     <td>
                                         <input type="submit"
                                                value="Modificar"
                                                asp-page-handler="BtModificar"
                                                class="btn btn-secondary"
-                                               asp-route-data="@elemento.ID_Mascota" />
+                                               asp-route-data="@elemento.ID_Servicio" />
                                         <input type="submit"
                                                value="Borrar"
                                                asp-page-handler="BtBorrarVal"
                                                class="btn btn-secondary"
-                                               asp-route-data="@elemento.ID_Mascota" />
+                                               asp-route-data="@elemento.ID_Servicio" />
                                     </td>
                                 </tr>
                             }

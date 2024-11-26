@@ -16,9 +16,9 @@ namespace lib_repositorios
         }
 
         protected DbSet<Clientes>? Clientes { get; set; }
+        protected DbSet<Servicios> Servicios { get; set; }
         protected DbSet<Mascotas>? Mascotas { get; set; }
         protected DbSet<Tipo_Mascotas> Tipo_Mascotas { get; set; }
-        protected DbSet<Servicios> Servicios { get; set; }
         protected DbSet<Tipos_servicios> Tipo_Servicios { get; set; }
         protected DbSet<Facturas> Facturas { get; set; }
 

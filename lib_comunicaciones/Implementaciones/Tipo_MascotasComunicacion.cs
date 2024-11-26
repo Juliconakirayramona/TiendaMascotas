@@ -2,12 +2,12 @@
 
 namespace lib_comunicaciones.Implementaciones
 {
-    public class Tipo_MascotasComunicacion : ITipo_MascotasComunicacion
+    public class Tipo_MascotaComunicacion : ITipo_MascotasComunicacion
     {
         private Comunicaciones? comunicaciones = null;
-        private string? Nombre = "Tipo_Mascotas";
+        private string? Nombre = "Tipo_Mascota";
 
-        public Tipo_MascotasComunicacion()
+        public Tipo_MascotaComunicacion()
         {
             comunicaciones = new Comunicaciones(Nombre);
         }

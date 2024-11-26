@@ -47,9 +47,14 @@ CONSTRAINT [FK_Clienteservicio_Servicio] FOREIGN KEY ([Servicio]) REFERENCES Ser
 
 CREATE TABLE Usuarios (
 [ID_Usuario] INT NOT NULL IDENTITY (1,1),
+[Nombre] NVARCHAR (250) NOT NULL,
+[Email] NVARCHAR (255) NOT NULL,
+[Contraseña] NVARCHAR (250) NOT NULL,
 
 CONSTRAINT [PK_idusuario] PRIMARY KEY CLUSTERED ([ID_Usuario]),
+CONSTRAINT [FK_Cliente_Clientes] FOREIGN KEY ([Clientes]) REFERENCES Clientes ([ID_Persona])
 );
+
 
 CREATE TABLE ModuloRoles (
 [ID_Modulo] INT NOT NULL IDENTITY (1,1),

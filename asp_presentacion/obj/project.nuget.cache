@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QBzqb11XWnQ=",
+  "dgSpecHash": "9Wn8oTmQ7F4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj",
+  "projectFilePath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jose Odair\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Jose Odair\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

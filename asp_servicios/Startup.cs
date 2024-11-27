@@ -60,8 +60,8 @@ namespace asp_servicios
                 //app.UseSwaggerUI();
             }
             app.UseHttpsRedirection();
-            app.UseRouting();
             app.UseAuthorization();
+            app.UseRouting();
             app.MapControllers();
             app.Run();
             

@@ -1,23 +1,24 @@
-﻿using lib_entidades.Modelos;
+﻿
+using lib_entidades.Modelos;
 using lib_repositorios;
 using lib_repositorios.Implementaciones;
-using lib_repositorios.Interfaces;
+using lid_repositorios.Interfaces;
 
 namespace mst_pruebas.Repositorios
 {
     [TestClass]
     public class Clientes_mascotasPruebaUnitaria
     {
-        private IClientes_mascotasRepositorio? iRepositorio = null;
+        private ITipos_MascotasRepositorio? iRepositorio = null;
         private Conexion? conexion = null;
-        private Clientes_mascotas? entidad = null;
-        private List<Clientes_mascotas>? lista = null;
+        private Tipo_Mascotas? entidad = null;
+        private List<Tipo_Mascotas>? lista = null;
 
         public Clientes_mascotasPruebaUnitaria()
         {
             conexion = new Conexion();
             conexion.StringConnection = "server=localhost;database=TiendaDeMascotas;Integrated Security=True;TrustServerCertificate=true;";
-            iRepositorio = new Clientes_mascotasRepositorio(conexion);
+            iRepositorio = new Tipos_MascotasRepositorio(conexion);
         }
 
         [TestMethod]
@@ -38,7 +39,7 @@ namespace mst_pruebas.Repositorios
 
         public void Guardar()
         {
-            entidad = new Clientes_mascotas()
+            entidad = new Tipo_Mascotas()
             {
                 TipoDeMascota = "TEST1",
                 Mascota = 3

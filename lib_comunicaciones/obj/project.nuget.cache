@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k1bCemO9S8U=",
+  "dgSpecHash": "6vt6edqbUCI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
+  "projectFilePath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jose Odair\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

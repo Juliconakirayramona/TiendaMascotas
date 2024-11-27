@@ -48,7 +48,7 @@ namespace lib_presentaciones.Implementaciones
 
         public async Task<Usuarios> Guardar(Usuarios entidad)
         {
-            if (entidad.ID_Persona != 0 || !entidad.Validar())
+            if (entidad.ID_Usuario != 0 || !entidad.Validar())
             {
                 throw new Exception("lbFaltaInformacion");
             }
@@ -68,7 +68,7 @@ namespace lib_presentaciones.Implementaciones
 
         public async Task<Usuarios> Modificar(Usuarios entidad)
         {
-            if (entidad.ID_Persona == 0 || !entidad.Validar())
+            if (entidad.ID_Usuario == 0 || !entidad.Validar())
             {
                 throw new Exception("lbFaltaInformacion");
             }
@@ -88,7 +88,7 @@ namespace lib_presentaciones.Implementaciones
 
         public async Task<Usuarios> Borrar(Usuarios entidad)
         {
-            if (entidad.ID_Persona == 0 || !entidad.Validar())
+            if (entidad.ID_Usuario == 0 || !entidad.Validar())
             {
                 throw new Exception("lbFaltaInformacion");
             }

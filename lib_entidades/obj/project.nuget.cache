@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7kSC//OHmoE=",
+  "dgSpecHash": "21lqBQ0IfD4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
+  "projectFilePath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jose Odair\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Jose Odair\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

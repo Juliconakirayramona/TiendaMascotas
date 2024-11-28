@@ -14,7 +14,6 @@ namespace lib_presentaciones.Implementaciones
         {
             this.iComunicacion = iComunicacion;
         }
-
         public async Task<List<Servicios>> Listar()
         {
             var lista = new List<Servicios>();
@@ -29,6 +28,7 @@ namespace lib_presentaciones.Implementaciones
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
+
 
         public async Task<List<Servicios>> Buscar(Servicios entidad, string tipo)
         {

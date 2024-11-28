@@ -1,21 +1,23 @@
+
 using lib_entidades.Modelos;
 using lib_presentaciones.Interfaces;
 using lib_utilidades;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc;
+using lib_entidades;
 
 namespace asp_presentacion.Pages.Ventanas.Menu
 {
-    public class ServiciosModel : PageModel
+    public class FacturasModel : PageModel
     {
-        private IServiciospresentacion? iPresentacion = null;
+        private IFacturaspresentacion? iPresentacion = null;
 
-        public ServiciosModel(IServiciospresentacion iPresentacion)
+        public FacturasModel(IFacturaspresentacion iPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
-                Filtro = new Servicios();
+                Filtro = new Facturas();
             }
             catch (Exception ex)
             {
@@ -24,9 +26,9 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         }
 
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
-        [BindProperty] public Servicios? Actual { get; set; }
-        [BindProperty] public Servicios? Filtro { get; set; }
-        [BindProperty] public List<Servicios>? Lista { get; set; }
+        [BindProperty] public Facturas? Actual { get; set; }
+        [BindProperty] public Facturas? Filtro { get; set; }
+        [BindProperty] public List<Facturas>? Lista { get; set; }
 
         public async Task OnGet()
         {
@@ -37,10 +39,10 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         {
             try
             {
-                Filtro!.ID_Servicio = Filtro!.ID_Servicio;
+                Filtro!.Codigo_Factura = Filtro!.Codigo_Factura ?? "";
 
                 Accion = Enumerables.Ventanas.Listas;
-                Lista = await this.iPresentacion!.Buscar(Filtro!, "ID_Servicio");
+                Lista = await this.iPresentacion!.Buscar(Filtro!, "Codigo Factura");
                 Actual = null;
             }
             catch (Exception ex)
@@ -55,7 +57,7 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             {
                 await OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
-                Actual = Lista!.FirstOrDefault(x => x.ID_Servicio.ToString() == data);
+                Actual = Lista!.FirstOrDefault(x => x.ID_Factura.ToString() == data);
             }
             catch (Exception ex)
             {
@@ -68,8 +70,8 @@ namespace asp_presentacion.Pages.Ventanas.Menu
         {
             try
             {
-                Accion = Enumerables.Ventanas.Nuevo;
-                Actual = new Servicios();
+                Accion = Enumerables.Ventanas.Nuevo; 
+                Actual = new Facturas(); 
             }
             catch (Exception ex)
             {
@@ -82,8 +84,8 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                Task<Servicios>? task = null;
-                if (Actual!.ID_Servicio == 0)
+                Task<Facturas>? task = null;
+                if (Actual!.ID_Factura == 0 )
                     task = this.iPresentacion!.Guardar(Actual!);
                 else
                     task = this.iPresentacion!.Modificar(Actual!);
@@ -103,7 +105,7 @@ namespace asp_presentacion.Pages.Ventanas.Menu
             {
                 await OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Borrar;
-                Actual = Lista!.FirstOrDefault(x => x.ID_Servicio.ToString() == data);
+                Actual = Lista!.FirstOrDefault(x => x.ID_Factura.ToString() == data);
             }
             catch (Exception ex)
             {

@@ -1,5 +1,6 @@
 ﻿using asp_servicios.Nucleo;
 using lib_aplicaciones.Interfaces;
+using lib_entidades;
 using lib_entidades.Modelos;
 using lib_utilidades;
 using Microsoft.AspNetCore.Mvc;
@@ -65,7 +66,38 @@ namespace asp_servicios.Controllers
             }
         }
 
-        
+
+        [HttpPost]
+        public string Buscar()
+        {
+            var respuesta = new Dictionary<string, object>();
+            try
+            {
+                var datos = ObtenerDatos();
+                if (!tokenController!.Validate(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+
+                var entidad = JsonConversor.ConvertirAObjeto<Servicios>(
+                    JsonConversor.ConvertirAString(datos["Entidad"]));
+                var tipo = datos["Tipo"].ToString();
+
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("ConectionString"));
+                respuesta["Entidades"] = this.iAplicacion!.Buscar(entidad, tipo);
+
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+            catch (Exception ex)
+            {
+                respuesta["Error"] = ex.Message.ToString();
+                return JsonConversor.ConvertirAString(respuesta);
+            }
+        }
+
 
         [HttpPost]
         public string Guardar()

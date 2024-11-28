@@ -25,6 +25,8 @@ namespace asp_presentacion
 
             services.AddScoped<ITipo_MascotasComunicacion, Tipo_MascotaComunicacion>();
 
+            services.AddScoped<IFacturasComunicacion, FacturasComunicacion>();
+
 
 
             // Presentaciones
@@ -32,12 +34,13 @@ namespace asp_presentacion
 
             services.AddScoped<IServiciospresentacion, Serviciospresentacion>();
 
-
             services.AddScoped<IMascotaspresentacion, Mascotaspresentacion>();
 
             services.AddScoped<ITipos_Mascotaspresentacion, Tipos_Mascotaspresentacion>();
 
-            
+            services.AddScoped<IFacturaspresentacion, Facturaspresentacion>();
+
+
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddRazorPages();

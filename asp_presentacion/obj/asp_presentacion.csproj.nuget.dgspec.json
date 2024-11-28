@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj": {}
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj",
         "projectName": "asp_presentacion",
-        "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\asp_presentacion.csproj",
         "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\obj\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj": {
-                "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj"
               },
-              "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
               },
-              "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj": {
-                "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
         "projectName": "lib_comunicaciones",
-        "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
         "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\obj\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -111,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
-                "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
         "projectName": "lib_entidades",
-        "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj",
         "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\obj\\",
+        "outputPath": "C:\\Users\\Jose Odair\\Source\\Repos\\TiendaMascotas\\lib_entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -230,14 +230,14 @@
         }
       }
     },
-    "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj",
         "projectName": "lib_presentaciones",
-        "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\lib_presentaciones.csproj",
         "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\obj\\",
+        "outputPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -259,14 +259,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj": {
-                "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj"
               },
-              "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\lib_entidades.csproj"
               },
-              "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
-                "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj"
+              "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
+                "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj"
               }
             }
           }
@@ -305,14 +305,14 @@
         }
       }
     },
-    "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
+    "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
         "projectName": "lib_utilidades",
-        "projectPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
+        "projectPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\lib_utilidades.csproj",
         "packagesPath": "C:\\Users\\Jose Odair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\obj\\",
+        "outputPath": "C:\\Users\\Jose Odair\\Source\\Repos\\TiendaMascotas\\lib_utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

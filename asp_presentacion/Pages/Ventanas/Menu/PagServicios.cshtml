@@ -1,7 +1,7 @@
 ﻿@page
 @model asp_presentacion.Pages.Ventanas.Menu.ServiciosModel
 @{
-    ViewData["Titulo"] = "Servicios";
+    ViewData["Titulo"] = "Mascotas";
 }
 <center>
     <div>
@@ -50,8 +50,6 @@
                 <input type="hidden"
                        asp-for="@Model.Actual!.Precio" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Estado" />
-                <input type="hidden"
                        asp-for="@Model.Actual!.Mascota" />
             }
 
@@ -71,12 +69,8 @@
                             <div class="col-lg-6">
                                 <input id="nmPrecio" class="cts_forms form-control" asp-for="@Model.Actual!.Precio" />
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">Estado</label>
-                            <div class="col-lg-6">
-                                <input id="nmEstado" class="cts_forms form-control" asp-for="@Model.Actual!.Estado" />
-                            </div>
+                        
+                       
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">Mascota ID</label>
@@ -107,12 +101,9 @@
                             <div class="col-lg-6">
                                 <input id="nmPrecio" class="cts_forms form-control" asp-for="@Model.Actual!.Precio" />
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">Estado</label>
-                            <div class="col-lg-6">
-                                <input id="nmEstado" class="cts_forms form-control" asp-for="@Model.Actual!.Estado" />
-                            </div>
+                        
+                        
+                            
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">Mascota ID</label>
@@ -168,7 +159,6 @@
                         <tr>
                             <th class="cl_hidden">ID_Servicio</th>
                             <th>Precio</th>
-                            <th>Estado</th>
                             <th>Mascota ID</th>
                             <th class="cl_actions">Acción</th>
                         </tr>
@@ -179,8 +169,7 @@
                                 <tr>
                                     <td class="cl_hidden">@elemento.ID_Servicio</td>
                                     <td>@elemento.Precio</td>
-                                    <td>@elemento.Estado</td>
-                                    <td>@elemento.Mascota</td>
+                                     <td>@elemento.Mascota</td>
                                     <td>
                                         <input type="submit"
                                                value="Modificar"

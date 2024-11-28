@@ -1,214 +1,210 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\",
+  "WorkspaceRootPath": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\mts_pruebas\\repositorio\\clientespruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|solutionrelative:mts_pruebas\\repositorio\\clientespruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_presentaciones\\implementaciones\\usuariospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\usuariospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\mts_pruebas\\repositorio\\tipos_serviciospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|solutionrelative:mts_pruebas\\repositorio\\tipos_serviciospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\mts_pruebas\\repositorio\\tipos_mascotaspruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\mts_pruebas\\repositorio\\tipos_mascotaspruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|solutionrelative:mts_pruebas\\repositorio\\tipos_mascotaspruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lid_repositorios\\interfaces\\itipos_serviciosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\interfaces\\itipos_serviciosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lid_repositorios\\interfaces\\itipos_mascotasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\interfaces\\itipos_mascotasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lid_repositorios\\interfaces\\imetodo_pagorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\interfaces\\imetodo_pagorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_servicios\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lid_repositorios\\interfaces\\imascotasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\interfaces\\imascotasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lid_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\lib_comunicaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\lib_comunicaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_utilidades\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_utilidades\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_utilidades\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\implementaciones\\servicioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\servicioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\implementaciones\\clientescomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\clientescomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_entidades\\modelos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_entidades\\modelos\\tipos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\tipos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_presentaciones\\interfaces\\iserviciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\interfaces\\iserviciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_entidades\\modelos\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_presentaciones\\implementaciones\\clientespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\clientespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_presentaciones\\implementaciones\\mascotaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\mascotaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_presentaciones\\implementaciones\\tipos_mascotaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\tipos_mascotaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\implementaciones\\tipo_mascotascomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\tipo_mascotascomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_servicios\\controllers\\tipos_mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tipos_mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\implementaciones\\mascotascomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\mascotascomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\implementaciones\\facturascomunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\facturascomunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_comunicaciones\\interfaces\\itipo_mascotascomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\interfaces\\itipo_mascotascomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_entidades\\modelos\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_entidades\\modelos\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_entidades\\modelos\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lib_entidades\\modelos\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_entidades\\modelos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_entidades\\modelos\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\asp_servicios\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FDF506A-BAF0-4198-A660-0D744BD67E75}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_aplicaciones\\interfaces\\iserviciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDF506A-BAF0-4198-A660-0D744BD67E75}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iserviciosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|c:\\users\\jose odair\\source\\repos\\juliconakirayramona\\tiendamascotas\\lid_repositorios\\interfaces\\iclientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27A709A-3CCB-45D4-8CD9-03D979BA0388}|lid_repositorios\\lid_repositorios.csproj|solutionrelative:lid_repositorios\\interfaces\\iclientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FDF506A-BAF0-4198-A660-0D744BD67E75}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_aplicaciones\\interfaces\\itipos_mascotasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FDF506A-BAF0-4198-A660-0D744BD67E75}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\itipos_mascotasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagtipomascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagtipomascota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_utilidades\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagtipomascota.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagtipomascota.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_presentaciones\\implementaciones\\serviciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\serviciospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_presentaciones\\implementaciones\\clientespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\clientespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_presentaciones\\implementaciones\\facturaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F823E5BF-8C20-4CB9-BF29-29F26060EFE7}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\facturaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\menu\\pagmascota.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_comunicaciones\\implementaciones\\servicioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\servicioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_comunicaciones\\interfaces\\iservicioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\interfaces\\iservicioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_comunicaciones\\implementaciones\\clientescomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\clientescomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F30EBAF-2884-4919-8FFC-FC4954485B03}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\nucleo\\configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\nucleo\\configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\controllers\\tipos_mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tipos_mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\controllers\\metodo_pagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\metodo_pagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\mts_pruebas\\repositorio\\tipos_serviciospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADA1AD7-82A2-4729-9FD7-0094BE5D2B84}|mts_pruebas\\mts_pruebas.csproj|solutionrelative:mts_pruebas\\repositorio\\tipos_serviciospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_presentacion\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{92033BDC-079E-497D-AADF-13B18CBABE0D}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_utilidades\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_utilidades\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EDCE99-6AD5-44B6-B232-FE9FB57B0463}|lib_utilidades\\lib_utilidades.csproj|solutionrelative:lib_utilidades\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_entidades\\modelos\\tipos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\tipos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_entidades\\modelos\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\mascotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\lib_entidades\\modelos\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96445AB1-6315-4EDB-A41C-1FA2ED82B54E}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|c:\\users\\jose odair\\source\\repos\\tiendamascotas\\asp_servicios\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE9D003-DC17-45A7-8D75-FA5C19F78BD1}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -218,242 +214,417 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAewCkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ClientesPruebaUnitaria.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\mts_pruebas\\Repositorio\\ClientesPruebaUnitaria.cs",
+              "RelativeDocumentMoniker": "mts_pruebas\\Repositorio\\ClientesPruebaUnitaria.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\mts_pruebas\\Repositorio\\ClientesPruebaUnitaria.cs",
+              "RelativeToolTip": "mts_pruebas\\Repositorio\\ClientesPruebaUnitaria.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:37:45.256Z",
+              "WhenOpened": "2024-11-28T04:59:15.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T22:42:09.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Error.cshtml",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T22:42:02.711Z",
+              "Title": "Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Servicios.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Servicios.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Servicios.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Servicios.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:39:22.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UsuariosPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAmwGwAAAABAAAAAAAAAA==",
+              "Title": "IServiciosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\Interfaces\\IServiciosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Interfaces\\IServiciosAplicacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\Interfaces\\IServiciosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Interfaces\\IServiciosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:38:17.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITipos_ServiciosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\ITipos_ServiciosRepositorio.cs",
-              "RelativeDocumentMoniker": "lid_repositorios\\Interfaces\\ITipos_ServiciosRepositorio.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\ITipos_ServiciosRepositorio.cs",
-              "RelativeToolTip": "lid_repositorios\\Interfaces\\ITipos_ServiciosRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:37:24.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T22:45:00.184Z",
+              "WhenOpened": "2024-11-28T04:56:51.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Facturas.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Facturas.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Facturas.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Facturas.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Facturas.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:42:32.505Z",
+              "WhenOpened": "2024-11-25T22:14:15.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tipos_ServiciosPruebaUnitaria.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
-              "RelativeDocumentMoniker": "mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
-              "RelativeToolTip": "mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:36:33.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IMetodo_PagoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\IMetodo_PagoRepositorio.cs",
-              "RelativeDocumentMoniker": "lid_repositorios\\Interfaces\\IMetodo_PagoRepositorio.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\IMetodo_PagoRepositorio.cs",
-              "RelativeToolTip": "lid_repositorios\\Interfaces\\IMetodo_PagoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:31:05.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Tipos_MascotasPruebaUnitaria.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_MascotasPruebaUnitaria.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_MascotasPruebaUnitaria.cs",
               "RelativeDocumentMoniker": "mts_pruebas\\Repositorio\\Tipos_MascotasPruebaUnitaria.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_MascotasPruebaUnitaria.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_MascotasPruebaUnitaria.cs",
               "RelativeToolTip": "mts_pruebas\\Repositorio\\Tipos_MascotasPruebaUnitaria.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T22:30:28.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ITipos_MascotasRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\ITipos_MascotasRepositorio.cs",
-              "RelativeDocumentMoniker": "lid_repositorios\\Interfaces\\ITipos_MascotasRepositorio.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\ITipos_MascotasRepositorio.cs",
-              "RelativeToolTip": "lid_repositorios\\Interfaces\\ITipos_MascotasRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ITipos_MascotasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\Interfaces\\ITipos_MascotasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Interfaces\\ITipos_MascotasAplicacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_aplicaciones\\Interfaces\\ITipos_MascotasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Interfaces\\ITipos_MascotasAplicacion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:09:41.888Z",
+              "WhenOpened": "2024-11-28T04:56:57.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Clientes.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Clientes.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Clientes.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Clientes.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:14:11.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PagServicios.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:31:40.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagServicios.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T23:59:00.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagTipoMascota.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T04:51:58.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PagCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T23:51:33.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagMascota.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T23:43:52.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IMascotasRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\IMascotasRepositorio.cs",
-              "RelativeDocumentMoniker": "lid_repositorios\\Interfaces\\IMascotasRepositorio.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\IMascotasRepositorio.cs",
-              "RelativeToolTip": "lid_repositorios\\Interfaces\\IMascotasRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Title": "PagCliente.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:10:02.872Z"
+              "WhenOpened": "2024-11-25T23:51:38.785Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
+              "Title": "LogConversor.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\LogConversor.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\LogConversor.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\LogConversor.cs",
+              "RelativeToolTip": "lib_utilidades\\LogConversor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:57:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PagTipoMascota.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagTipoMascota.cshtml.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:53:21.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiciosPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\ServiciosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\ServiciosPresentacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\ServiciosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\ServiciosPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:21:49.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Program.cs",
+              "RelativeToolTip": "asp_presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:54:00.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Startup.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Startup.cs",
+              "RelativeToolTip": "asp_presentacion\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:40:26.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FacturasPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\FacturasPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\FacturasPresentacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\FacturasPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\FacturasPresentacion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:31:22.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClientesPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:31:59.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PagMascota.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:40:45.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "serviciosComunicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
+              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
+              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:20:15.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IServiciosComunicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Interfaces\\IServiciosComunicacion.cs",
+              "RelativeDocumentMoniker": "lib_comunicaciones\\Interfaces\\IServiciosComunicacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Interfaces\\IServiciosComunicacion.cs",
+              "RelativeToolTip": "lib_comunicaciones\\Interfaces\\IServiciosComunicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:20:32.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClientesComunicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
+              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
+              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:24:55.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Comunicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Comunicaciones.cs",
+              "RelativeDocumentMoniker": "lib_comunicaciones\\Comunicaciones.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_comunicaciones\\Comunicaciones.cs",
+              "RelativeToolTip": "lib_comunicaciones\\Comunicaciones.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:23:40.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JsonConversor.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\JsonConversor.cs",
+              "RelativeDocumentMoniker": "lib_utilidades\\JsonConversor.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\JsonConversor.cs",
+              "RelativeToolTip": "lib_utilidades\\JsonConversor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:57:03.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:58:27.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Program.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Program.cs",
+              "RelativeToolTip": "asp_servicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:55:57.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Configuraciones.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Nucleo\\Configuraciones.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Nucleo\\Configuraciones.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Nucleo\\Configuraciones.cs",
+              "RelativeToolTip": "asp_servicios\\Nucleo\\Configuraciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:55:52.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ServiciosController.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\ServiciosController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\ServiciosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ServiciosController.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\ServiciosController.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\ServiciosController.cs",
               "RelativeToolTip": "asp_servicios\\Controllers\\ServiciosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T00:00:57.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PagServicios.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T23:59:00.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "asp_presentacion\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "asp_presentacion\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-25T23:58:35.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PagMascota.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml",
-              "ViewState": "AgIAALcAAAAAAAAAAAAAAEkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T23:43:52.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Conexion.cs",
-              "RelativeDocumentMoniker": "lid_repositorios\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Conexion.cs",
-              "RelativeToolTip": "lid_repositorios\\Conexion.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwBIAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Startup.cs",
+              "RelativeToolTip": "asp_servicios\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:10:51.74Z"
+              "WhenOpened": "2024-11-25T22:09:35.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "asp_presentacion\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "asp_presentacion\\wwwroot\\js\\site.js",
+              "DocumentIndex": 31,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-25T23:58:31.244Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T22:45:00.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "asp_presentacion\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Properties\\launchSettings.json",
               "RelativeToolTip": "asp_presentacion\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -461,23 +632,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "lib_comunicaciones.csproj",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\lib_comunicaciones.csproj",
-              "ToolTip": "C:\\Users\\Jose Odair\\Source\\Repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\lib_comunicaciones.csproj",
-              "RelativeToolTip": "lib_comunicaciones\\lib_comunicaciones.csproj",
+              "DocumentIndex": 33,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-25T23:57:29.969Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:50:39.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
+              "Title": "Tipos_MascotasController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\Tipos_MascotasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\Tipos_MascotasController.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\Tipos_MascotasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\Tipos_MascotasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:12:12.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:37:45.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\FacturasController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:32:50.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Metodo_pagoController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\Metodo_pagoController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\Metodo_pagoController.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\Metodo_pagoController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\Metodo_pagoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:40:38.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Error.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T22:42:02.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T22:42:09.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:42:32.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Tipos_ServiciosPruebaUnitaria.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
+              "RelativeDocumentMoniker": "mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
+              "RelativeToolTip": "mts_pruebas\\Repositorio\\Tipos_ServiciosPruebaUnitaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:36:33.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "asp_presentacion\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "asp_presentacion\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T23:58:35.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "asp_presentacion\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_presentacion\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "asp_presentacion\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T23:58:31.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "EncodingHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\EncodingHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\EncodingHelper.cs",
               "RelativeDocumentMoniker": "lib_utilidades\\EncodingHelper.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\EncodingHelper.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\EncodingHelper.cs",
               "RelativeToolTip": "lib_utilidades\\EncodingHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -485,11 +778,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 45,
               "Title": "EncriptarConversor.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\EncriptarConversor.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\EncriptarConversor.cs",
               "RelativeDocumentMoniker": "lib_utilidades\\EncriptarConversor.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\EncriptarConversor.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\EncriptarConversor.cs",
               "RelativeToolTip": "lib_utilidades\\EncriptarConversor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -497,11 +790,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 46,
               "Title": "Enumerables.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\Enumerables.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\Enumerables.cs",
               "RelativeDocumentMoniker": "lib_utilidades\\Enumerables.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\Enumerables.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_utilidades\\Enumerables.cs",
               "RelativeToolTip": "lib_utilidades\\Enumerables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -509,131 +802,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_presentacion\\Startup.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Startup.cs",
-              "RelativeToolTip": "asp_presentacion\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:40:26.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LogConversor.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\LogConversor.cs",
-              "RelativeDocumentMoniker": "lib_utilidades\\LogConversor.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\LogConversor.cs",
-              "RelativeToolTip": "lib_utilidades\\LogConversor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:57:09.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "JsonConversor.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\JsonConversor.cs",
-              "RelativeDocumentMoniker": "lib_utilidades\\JsonConversor.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_utilidades\\JsonConversor.cs",
-              "RelativeToolTip": "lib_utilidades\\JsonConversor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:57:03.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "serviciosComunicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\serviciosComunicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:54:32.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Program.cs",
-              "RelativeDocumentMoniker": "asp_presentacion\\Program.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Program.cs",
-              "RelativeToolTip": "asp_presentacion\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:54:00.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ClientesComunicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\ClientesComunicacion.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:06:53.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Comunicaciones.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Comunicaciones.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Comunicaciones.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Comunicaciones.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Comunicaciones.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwCcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:49:36.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PagCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T23:51:33.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "PagServicios.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagServicios.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:31:40.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "PagCliente.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagCliente.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:51:38.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 47,
               "Title": "Tipos_Servicios.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Servicios.cs",
               "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Tipos_Servicios.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Servicios.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Tipos_Servicios.cs",
               "RelativeToolTip": "lib_entidades\\Modelos\\Tipos_Servicios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -641,47 +814,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "PagMascota.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
-              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Menu\\PagMascota.cshtml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:40:45.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IServiciosPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Interfaces\\IServiciosPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IServiciosPresentacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Interfaces\\IServiciosPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Interfaces\\IServiciosPresentacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:32:17.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Servicios.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Servicios.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Servicios.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Servicios.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Servicios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:27:19.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "Mascotas.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Mascotas.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Mascotas.cs",
               "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Mascotas.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Mascotas.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Mascotas.cs",
               "RelativeToolTip": "lib_entidades\\Modelos\\Mascotas.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA8wBcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -689,131 +826,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "MascotasPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\MascotasPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\MascotasPresentacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\MascotasPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\MascotasPresentacion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:44:45.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ClientesPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:44:51.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Tipos_MascotasPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\Tipos_MascotasPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\Tipos_MascotasPresentacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_presentaciones\\Implementaciones\\Tipos_MascotasPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\Tipos_MascotasPresentacion.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:44:33.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Tipos_MascotasController.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\Tipos_MascotasController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\Tipos_MascotasController.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\Tipos_MascotasController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\Tipos_MascotasController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowFkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:12:12.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Tipo_MascotasComunicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\Tipo_MascotasComunicacion.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\Tipo_MascotasComunicacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\Tipo_MascotasComunicacion.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\Tipo_MascotasComunicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:06:49.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Startup.cs",
-              "RelativeToolTip": "asp_servicios\\Startup.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:09:35.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "MascotasComunicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\MascotasComunicacion.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\MascotasComunicacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\MascotasComunicacion.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\MascotasComunicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:08:06.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "FacturasComunicaciones.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\FacturasComunicaciones.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\FacturasComunicaciones.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Implementaciones\\FacturasComunicaciones.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\FacturasComunicaciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:37:09.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ITipo_MascotasComunicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Interfaces\\ITipo_MascotasComunicacion.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Interfaces\\ITipo_MascotasComunicacion.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_comunicaciones\\Interfaces\\ITipo_MascotasComunicacion.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Interfaces\\ITipo_MascotasComunicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:12:29.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Facturas.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Facturas.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Facturas.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Facturas.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Facturas.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:14:15.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "Metodo_pago.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Metodo_pago.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Metodo_pago.cs",
               "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Metodo_pago.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Metodo_pago.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\lib_entidades\\Modelos\\Metodo_pago.cs",
               "RelativeToolTip": "lib_entidades\\Modelos\\Metodo_pago.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -821,39 +838,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Clientes.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lib_entidades\\Modelos\\Clientes.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Clientes.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:14:11.114Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 50,
               "Title": "MascotaController.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\MascotaController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\MascotaController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\MascotaController.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\asp_servicios\\Controllers\\MascotaController.cs",
+              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\TiendaMascotas\\asp_servicios\\Controllers\\MascotaController.cs",
               "RelativeToolTip": "asp_servicios\\Controllers\\MascotaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T22:12:10.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "IClientesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
-              "RelativeDocumentMoniker": "lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
-              "ToolTip": "C:\\Users\\Jose Odair\\source\\repos\\Juliconakirayramona\\TiendaMascotas\\lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
-              "RelativeToolTip": "lid_repositorios\\Interfaces\\IClientesRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:10:11.367Z"
             }
           ]
         }

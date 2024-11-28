@@ -1,7 +1,7 @@
 ﻿@page
-@model asp_presentacion.Pages.Ventanas.Menu.Tipo_MascotaModel
+@model asp_presentacion.Pages.Ventanas.Menu.MenuModel
 @{
-    ViewData["Titulo"] = "Mascotas";
+    ViewData["Titulo"] = "Facturas";
 }
 <center>
     <div>
@@ -10,7 +10,7 @@
             @Html.AntiForgeryToken()
 
             <div align="left">
-                <h3>Tipos Mascotas</h3>
+                <h3>Clientes</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -36,65 +36,87 @@
                        disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
             </div>
 
-           @if (Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas ||
+            @if (Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.ID_TipoMascota" />
+                       asp-for="@Model.Actual!.ID_Persona" />
             }
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.ID_TipoMascota " />
+                       asp-for="@Model.Actual!.ID_Factura " />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.TipoDeMascota" />
+                       asp-for="@Model.Actual!.Codigo_Factura" />
                 <input type="hidden"
+                       asp-for="@Model.Actual!.Cliente" />
+                       <input type="hidden"
                        asp-for="@Model.Actual!.Mascota" />
-
+                       <input type="hidden"
+                       asp-for="@Model.Actual!.Servicio" />
+                       <input type="hidden"
+                       asp-for="@Model.Actual!.Pago" />
 
             }
-
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>EDITAR Tipo Mascota</h3>
+                    <h3>EDITAR CLIENTE</h3>
 
                     <div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                ID_TipoMascota
+                                ID_Factura
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmID_TipoMascota"
+                                <input id="nmID_Factura"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.ID_TipoMascota" />
+                                       asp-for="@Model.Actual!.ID_Factura" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                TipoDeMascota
+                                Codigo_Factura
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmTipoDeMascota"
+                                <input id="nmCodigo_Factura"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.TipoDeMascota" />
+                                       asp-for="@Model.Actual!.Codigo_Factura" />
                             </div>
                         </div>
                         <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                TOTAL
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmTOTAL"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.TOTAL" />
+                            </div>
+
+                            <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                CLiente
+                            </label>
+                             <div class="col-lg-6">
+                                <input id="nmcliente"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Cliente" />
+                            </div>
+
+                          <div class="form-group">
                             <label class="col-lg-4 control-label">
                                 Mascota
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmMascota"
                                        class="cts_forms form-control"
-                                           asp-for="@Model.Actual!.Mascota" />
+                                       asp-for="@Model.Actual!.Mascota" />
                             </div>
-
-
-
+                                    
+                            </div>
                         </div>
-
                     </div>
                 </div>
             }
@@ -107,31 +129,31 @@
                          "../../Emergentes/Mensajes.cshtml")
                 ;
             }
-            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Nuevo)
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Nuevo )
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>INGRESA TIPO DE MASCOTA</h3>
+                    <h3>INGRESA Mascota</h3>
 
                     <div>
-
+                        
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                TipoDeMascota
+                                Codigo_Factura
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmTipoDeMascota"
+                                <input id="nmCodigo_Factura"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.TipoDeMascota" />
+                                       asp-for="@Model.Actual!.Codigo_Factura" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Mascota
+                                Cliente
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmMascota"
+                                <input id="nmCliente"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Mascota" />
+                                       asp-for="@Model.Actual!.Cliente" />
                             </div>
                         </div>
                     </div>
@@ -152,7 +174,7 @@
                                 Desea borrar la entidad?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.TipoDeMascota
+                                @Model.Actual!.Codigo_Factura
                             </h6>
                             <br />
                             <br />
@@ -172,28 +194,28 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
-                <input id="flTipoDeMascota"
+                <input id="flCodigo_Factura"
                        class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.TipoDeMascota"
-                       placeholder="TipoDeMascota" />
+                       asp-for="@Model.Filtro!.Codigo_Factura"
+                       placeholder="Codigo_Factura" />
                 <br />
 
                 <div class="containers_vn panel panel-default">
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
+                            <th>
+                                Codigo_Factura
+                            </th>
                             <th class="cl_hidden">
-                                ID_TipoMascota
+                                Id_Persona
+                            </th>
+                            <th class="cl_hidden">
+                                Cliente
                             </th>
 
-                            <th>
-                                TipoDeMascota
-                            </th>
-                            
-                            <th>
-                                Mascota
-                            </th>
-
-
+                            <!--  <th class="cl_hidden">
+                                  Activa
+                              </th> -->
                             <th class="cl_actions">
                                 Accion
                             </th>
@@ -203,33 +225,31 @@
                             @foreach (var elemento in Model.Lista)
                             {
                                 <tr>
-                                    <td class="cl_hidden">
-                                        @elemento.ID_TipoMascota
-
                                     <td>
-                                        @elemento.TipoDeMascota
+                                        @elemento.Codigo_Factura
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento.ID_Persona
                                     </td>
                                     
-                                   
-
                                     <td>
-                                        @elemento.Mascota
+                                        @elemento.Cliente
                                     </td>
-
+                                    
                                     <td>
                                         <input type="submit"
                                                value="Modificar"
                                                asp-page-handler="BtModificar"
                                                class="btn btn-secondary"
-                                               asp-route-data="@elemento.ID_TipoMascota" />
+                                               asp-route-data="@elemento.ID_Persona" />
                                         <input type="submit"
                                                value="Borrar"
                                                asp-page-handler="BtBorrarVal"
                                                class="btn btn-secondary"
-                                               asp-route-data="@elemento.ID_TipoMascota" />
+                                               asp-route-data="@elemento.ID_Persona" />
                                     </td>
                                 </tr>
-
+                              
                             }
                         }
                     </table>
